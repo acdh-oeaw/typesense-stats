@@ -3,6 +3,14 @@
     "nr_of_documents": 1115675,
     "collections": [
         {
+            "col_name": "wkfm",
+            "nr_of_documents": 1945,
+            "nr_of_fields": 4,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/donauhandel/wkfm-static",
+            "service_ids": "20289"
+        },
+        {
             "col_name": "schubert_dev",
             "nr_of_documents": 228,
             "nr_of_fields": 58,
@@ -310,17 +318,17 @@
             "col_name": "the-knowledge-base-website",
             "nr_of_documents": 0,
             "nr_of_fields": 8,
-            "owners": "barbara.krautgartner@oeaw.ac.at",
-            "description": "The Knowledge Base - Website",
-            "service_ids": "23717"
+            "owners": "Barbara Krautgartner",
+            "description": "The Knowledge Base",
+            "service_ids": "23817"
         },
         {
             "col_name": "the-knowledge-base-resources",
             "nr_of_documents": 0,
             "nr_of_fields": 17,
-            "owners": "barbara.krautgartner@oeaw.ac.at",
-            "description": "The Knowledge Base - Resources",
-            "service_ids": "23717"
+            "owners": "Barbara Krautgartner",
+            "description": "The Knowledge Base",
+            "service_ids": "23817"
         },
         {
             "col_name": "schubert_ci",
@@ -622,14 +630,6 @@
             "col_name": "nbr-graz",
             "nr_of_documents": 2041,
             "nr_of_fields": 7,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "wkfm",
-            "nr_of_documents": 1945,
-            "nr_of_fields": 4,
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"

@@ -44,7 +44,7 @@ JAD-temp,2319,60,Ivana Dobcheva,"index for the JAD project, indexing all passage
 brahms,2077,17,not set,not set,not set
 nbr-graz,2041,7,not set,not set,not set
 grundbuecher,1999,4,not set,not set,not set
-wkfm,1945,4,not set,not set,not set
+wkfm,1945,4,Peter Andorfer,https://github.com/donauhandel/wkfm-static,20289
 akademie-static,1728,9,"Peter Andorfer, Kinga Sramó",https://github.com/acdh-oeaw/akademie-static,18716
 emt,1599,22,not set,not set,not set
 viecpro_v3_institution_detail,1548,17,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
@@ -101,5 +101,5 @@ hit__strata,54,54,not set,not set,not set
 dieinsel_index_uebersicht,34,15,not set,not set,not set
 oeml-play,4,10,not set,not set,not set
 dse-static,3,16,dse-static-cookiecutter,Used by https://github.com/acdh-oeaw/dse-static,18716
-the-knowledge-base-website,0,8,barbara.krautgartner@oeaw.ac.at,The Knowledge Base - Website,23717
-the-knowledge-base-resources,0,17,barbara.krautgartner@oeaw.ac.at,The Knowledge Base - Resources,23717
+the-knowledge-base-website,0,8,Barbara Krautgartner,The Knowledge Base,23817
+the-knowledge-base-resources,0,17,Barbara Krautgartner,The Knowledge Base,23817
