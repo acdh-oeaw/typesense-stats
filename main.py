@@ -44,6 +44,33 @@ def _format_owners(metadata: Any) -> str:
 	return "not set"
 
 
+def _format_description(metadata: Any) -> str:
+	if not isinstance(metadata, dict):
+		return "not set"
+
+	description = metadata.get("description")
+	if isinstance(description, str) and description.strip():
+		return description.strip()
+	if description is not None and str(description).strip():
+		return str(description).strip()
+
+	return "not set"
+
+
+def _format_service_ids(metadata: Any) -> str:
+	if not isinstance(metadata, dict):
+		return "not set"
+
+	service_ids = metadata.get("service_ids")
+	if isinstance(service_ids, list):
+		service_id_values = [str(service_id).strip() for service_id in service_ids if str(service_id).strip()]
+		return ", ".join(service_id_values) if service_id_values else "not set"
+	if service_ids is not None and str(service_ids).strip():
+		return str(service_ids).strip()
+
+	return "not set"
+
+
 def _get_collections(base_url: str, timeout: float) -> list[dict[str, Any]]:
 	response = requests.get(
 		f"{base_url}/collections",
@@ -70,7 +97,10 @@ def build_stats() -> dict[str, Any]:
 		num_documents = int(collection.get("num_documents", 0) or 0)
 		fields = collection.get("fields", [])
 		nr_of_fields = len(fields) if isinstance(fields, list) else 0
-		owners = _format_owners(collection.get("metadata"))
+		metadata = collection.get("metadata")
+		owners = _format_owners(metadata)
+		description = _format_description(metadata)
+		service_ids = _format_service_ids(metadata)
 
 		total_documents += num_documents
 		collection_stats.append(
@@ -79,6 +109,8 @@ def build_stats() -> dict[str, Any]:
 				"nr_of_documents": num_documents,
 				"nr_of_fields": nr_of_fields,
 				"owners": owners,
+				"description": description,
+				"service_ids": service_ids,
 			}
 		)
 
@@ -98,7 +130,7 @@ def write_csv(stats: dict[str, Any]) -> None:
 
 	with open("stats.csv", "w", encoding="utf-8", newline="") as f:
 		writer = csv.writer(f)
-		writer.writerow(["col_name", "nr_of_documents", "nr_of_fields", "owners"])
+		writer.writerow(["col_name", "nr_of_documents", "nr_of_fields", "owners", "description", "service_ids"])
 		for item in ordered_collections:
 			writer.writerow(
 				[
@@ -106,6 +138,8 @@ def write_csv(stats: dict[str, Any]) -> None:
 					item.get("nr_of_documents", 0),
 					item.get("nr_of_fields", 0),
 					item.get("owners", "not set"),
+					item.get("description", "not set"),
+					item.get("service_ids", "not set"),
 				]
 			)
 
