@@ -71,6 +71,16 @@ def _format_service_ids(metadata: Any) -> str:
 	return "not set"
 
 
+def _has_service_ids(metadata: Any) -> bool:
+	if not isinstance(metadata, dict):
+		return False
+
+	service_ids = metadata.get("service_ids")
+	if isinstance(service_ids, list):
+		return any(str(service_id).strip() for service_id in service_ids)
+	return bool(str(service_ids).strip()) if service_ids is not None else False
+
+
 def _get_collections(base_url: str, timeout: float) -> list[dict[str, Any]]:
 	response = requests.get(
 		f"{base_url}/collections",
@@ -91,6 +101,7 @@ def build_stats() -> dict[str, Any]:
 
 	collection_stats: list[dict[str, Any]] = []
 	total_documents = 0
+	collections_with_metadata = 0
 
 	for collection in collections:
 		name = str(collection.get("name", ""))
@@ -98,6 +109,8 @@ def build_stats() -> dict[str, Any]:
 		fields = collection.get("fields", [])
 		nr_of_fields = len(fields) if isinstance(fields, list) else 0
 		metadata = collection.get("metadata")
+		if _has_service_ids(metadata):
+			collections_with_metadata += 1
 		owners = _format_owners(metadata)
 		description = _format_description(metadata)
 		service_ids = _format_service_ids(metadata)
@@ -116,6 +129,7 @@ def build_stats() -> dict[str, Any]:
 
 	return {
 		"nr_of_collections": len(collection_stats),
+		"with_metadata": collections_with_metadata,
 		"nr_of_documents": total_documents,
 		"collections": collection_stats,
 	}
@@ -147,7 +161,7 @@ def write_csv(stats: dict[str, Any]) -> None:
 def main() -> None:
 	stats = build_stats()
 	with open("stats.json", "w", encoding="utf-8") as f:
-		json.dump(stats, f, indent=4)
+		json.dump(stats, f, indent=4, ensure_ascii=False)
 	write_csv(stats)
 
 

@@ -1,7 +1,32 @@
 {
     "nr_of_collections": 104,
+    "with_metadata": 52,
     "nr_of_documents": 1115674,
     "collections": [
+        {
+            "col_name": "schubert_dev",
+            "nr_of_documents": 228,
+            "nr_of_fields": 58,
+            "owners": "@peterpro",
+            "description": "sources data for schubert staging",
+            "service_ids": "22517"
+        },
+        {
+            "col_name": "schubert_dev_works",
+            "nr_of_documents": 1097,
+            "nr_of_fields": 16,
+            "owners": "@peterpro",
+            "description": "works data for schubert staging",
+            "service_ids": "22517"
+        },
+        {
+            "col_name": "schubert_dev_schnellsuche",
+            "nr_of_documents": 2985,
+            "nr_of_fields": 9,
+            "owners": "@peterpro",
+            "description": "schnellsuche data for schubert staging",
+            "service_ids": "22517"
+        },
         {
             "col_name": "dhd-abstracts",
             "nr_of_documents": 1180,
@@ -46,39 +71,15 @@
             "col_name": "emt",
             "nr_of_documents": 1599,
             "nr_of_fields": 22,
-            "owners": "Peter Andorfer, Kinga Sram\u00f3",
+            "owners": "Peter Andorfer, Kinga Sramó",
             "description": "https://github.com/emt-project/emt-static",
             "service_ids": "21311"
-        },
-        {
-            "col_name": "schubert_dev",
-            "nr_of_documents": 228,
-            "nr_of_fields": 58,
-            "owners": "@peterpro",
-            "description": "sources data for schubert staging",
-            "service_ids": "22517"
-        },
-        {
-            "col_name": "schubert_dev_works",
-            "nr_of_documents": 1097,
-            "nr_of_fields": 16,
-            "owners": "@peterpro",
-            "description": "works data for schubert staging",
-            "service_ids": "22517"
-        },
-        {
-            "col_name": "schubert_dev_schnellsuche",
-            "nr_of_documents": 2985,
-            "nr_of_fields": 9,
-            "owners": "@peterpro",
-            "description": "schnellsuche data for schubert staging",
-            "service_ids": "22517"
         },
         {
             "col_name": "schnitzler-chronik",
             "nr_of_documents": 66573,
             "nr_of_fields": 5,
-            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
+            "owners": "Peter Andorfer, Martin Anton Müller",
             "description": "https://github.com/arthur-schnitzler/schnitzler-chronik-static",
             "service_ids": "21628"
         },
@@ -86,7 +87,7 @@
             "col_name": "Schnitzler-Zeitungen",
             "nr_of_documents": 22571,
             "nr_of_fields": 4,
-            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
+            "owners": "Peter Andorfer, Martin Anton Müller",
             "description": "https://github.com/arthur-schnitzler/schnitzler-zeitungen-static",
             "service_ids": "15042"
         },
@@ -118,7 +119,7 @@
             "col_name": "akademie-static",
             "nr_of_documents": 1728,
             "nr_of_fields": 9,
-            "owners": "Peter Andorfer, Kinga Sram\u00f3",
+            "owners": "Peter Andorfer, Kinga Sramó",
             "description": "https://github.com/acdh-oeaw/akademie-static",
             "service_ids": "18716"
         },
@@ -126,7 +127,7 @@
             "col_name": "Schnitzler-Mikrofilme",
             "nr_of_documents": 44326,
             "nr_of_fields": 5,
-            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
+            "owners": "Peter Andorfer, Martin Anton Müller",
             "description": "https://github.com/arthur-schnitzler/schnitzler-mikrofilme-static",
             "service_ids": "22703"
         },
@@ -150,7 +151,7 @@
             "col_name": "schnitzler-briefe",
             "nr_of_documents": 4356,
             "nr_of_fields": 29,
-            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
+            "owners": "Peter Andorfer, Martin Anton Müller",
             "description": "https://github.com/arthur-schnitzler/schnitzler-briefe-static",
             "service_ids": "21741"
         },
@@ -158,7 +159,7 @@
             "col_name": "stb",
             "nr_of_documents": 16423,
             "nr_of_fields": 8,
-            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
+            "owners": "Peter Andorfer, Martin Anton Müller",
             "description": "https://github.com/arthur-schnitzler/schnitzler-tagebuch-static",
             "service_ids": "11833"
         },
@@ -166,7 +167,7 @@
             "col_name": "schnitzler-interviews",
             "nr_of_documents": 182,
             "nr_of_fields": 18,
-            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
+            "owners": "Peter Andorfer, Martin Anton Müller",
             "description": "https://github.com/arthur-schnitzler/schnitzler-interviews-static",
             "service_ids": "21741"
         },
@@ -230,7 +231,7 @@
             "col_name": "kalbeck-tagebuch-static",
             "nr_of_documents": 341,
             "nr_of_fields": 16,
-            "owners": "Peter Andorfer, Fernando Sanz-L\u00e1zaro",
+            "owners": "Peter Andorfer, Fernando Sanz-Lázaro",
             "description": "'Max Kalbeck Tagebuch' (https://github.com/max-kalbeck/kalbeck-tagebuch-static)",
             "service_ids": "26167"
         },
@@ -246,7 +247,7 @@
             "col_name": "ofm_graz",
             "nr_of_documents": 51647,
             "nr_of_fields": 14,
-            "owners": "Fernando Sanz-L\u00e1zaro",
+            "owners": "Fernando Sanz-Lázaro",
             "description": "Used for Register of https://ofm-graz.acdh.oeaw.ac.at",
             "service_ids": "22275"
         },
@@ -271,7 +272,7 @@
             "nr_of_documents": 120,
             "nr_of_fields": 22,
             "owners": "Daniel Elsner, Fernando Sanz-Lazaro, LP",
-            "description": "Used for \u00dcbersicht of https://armesuenderblaetter.acdh-cluster-2.arz.oeaw.ac.at/",
+            "description": "Used for Übersicht of https://armesuenderblaetter.acdh-cluster-2.arz.oeaw.ac.at/",
             "service_ids": "22954"
         },
         {
@@ -286,7 +287,7 @@
             "col_name": "STB",
             "nr_of_documents": 4895,
             "nr_of_fields": 8,
-            "owners": "Peter Andorfer, Carl Friedrich Haak, Michaela Rausch-Supola, Fernando Sanz-L\u00e1zaro",
+            "owners": "Peter Andorfer, Carl Friedrich Haak, Michaela Rausch-Supola, Fernando Sanz-Lázaro",
             "description": "Used for Register of https://staribacher.acdh.oeaw.ac.at/",
             "service_ids": "23089"
         },
