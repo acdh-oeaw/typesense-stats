@@ -11,10 +11,10 @@ viecpro_v3_person,25766,11,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro
 Schnitzler-Zeitungen,22571,4,not set,not set,not set
 abcd-db,21968,12,not set,not set,not set
 prosnet-wikidata-person-index,21294,7,not set,not set,not set
-stb,16423,8,not set,not set,not set
+stb,16423,8,"Peter Andorfer, Martin Anton Müller",https://github.com/arthur-schnitzler/schnitzler-tagebuch-static,11833
 teaching-paradimes,16075,40,not set,not set,not set
 fackel-texte,12371,6,not set,not set,not set
-bruckner-bibliographie,9847,3,not set,not set,not set
+bruckner-bibliographie,9847,3,"barbara.krautgartner@oeaw.ac.at, stefan.probst@oeaw.ac.at",Bruckner Online,22508
 oeml-search,9788,22,not set,not set,not set
 oeml-search-local,9774,10,@peterpro,search data for oeml-static,23145
 daacda,8124,17,not set,not set,not set
@@ -23,13 +23,13 @@ hsl,7885,9,not set,not set,not set
 hbtv,6780,8,not set,not set,not set
 hbtv-v3,6780,14,not set,not set,not set
 hbtv-v2,6780,14,not set,not set,not set
-bundes_verfassung_oesterreich,5947,16,not set,not set,not set
+bundes_verfassung_oesterreich,5947,16,"Peter Andorfer, Carl Friedrich Haak","Index of the Austrian Federal Constitution (Bundes-Verfassungsgesetz)documents and subsections of documents are both indexed as documents, to make the full text but also the different documents as such searchable.",21497
 freud-edition,5641,6,not set,not set,not set
 prosnet-wikidata-organization-index,5531,5,not set,not set,not set
 jpbriefe,5526,15,not set,not set,not set
 STB,4895,8,"Peter Andorfer, Carl Friedrich Haak, Michaela Rausch-Supola, Fernando Sanz-Lázaro",Used for Register of https://staribacher.acdh.oeaw.ac.at/,23089
-schnitzler-briefe,4356,29,not set,not set,not set
-mrp-static,4350,13,not set,not set,not set
+schnitzler-briefe,4356,29,"Peter Andorfer, Martin Anton Müller",https://github.com/arthur-schnitzler/schnitzler-briefe-static,21741
+mrp-static,4350,13,"Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static,28624
 legalkraus,4002,34,"Peter Andorfer, Barbara Krautgartner",https://github.com/karl-kraus/legalkraus-static/,22730
 wiener-rundschau-static,3482,12,Peter Andorfer,https://github.com/acdh-oeaw/wiener-rundschau-static,26179
 staribacher,3154,6,not set,not set,not set
@@ -86,7 +86,7 @@ viecpro_v3_court_detail,218,18,matthias.schloegl@oeaw.ac.at,VieCPro (https://vie
 schubert_ci,191,58,not set,not set,not set
 tbo_work,187,13,matthias.schloegl@oeaw.ac.at,Testindex for Thomas Bernhard Online,23795
 schnitzler-interviews,182,18,"Peter Andorfer, Martin Anton Müller",https://github.com/arthur-schnitzler/schnitzler-interviews-static,21741
-clariah-at-platform,155,10,not set,not set,not set
+clariah-at-platform,155,10,barbara.krautgartner@oeaw.ac.at,CLARIAH-AT platform,23717
 flugblaetter_todesurteile_persons,126,20,not set,not set,not set
 armesuenderblaetter,120,22,"Daniel Elsner, Fernando Sanz-Lazaro, LP",Used for Übersicht of https://armesuenderblaetter.acdh-cluster-2.arz.oeaw.ac.at/,22954
 maechtekongresse,113,13,not set,not set,not set
@@ -101,5 +101,5 @@ hit__strata,54,54,not set,not set,not set
 dieinsel_index_uebersicht,34,15,not set,not set,not set
 oeml-play,4,10,not set,not set,not set
 dse-static,3,16,dse-static-cookiecutter,Used by https://github.com/acdh-oeaw/dse-static,18716
-the-knowledge-base-website,0,8,not set,not set,not set
-the-knowledge-base-resources,0,17,not set,not set,not set
+the-knowledge-base-website,0,8,barbara.krautgartner@oeaw.ac.at,The Knowledge Base - Website,23717
+the-knowledge-base-resources,0,17,barbara.krautgartner@oeaw.ac.at,The Knowledge Base - Resources,23717

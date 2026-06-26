@@ -3,6 +3,46 @@
     "nr_of_documents": 1115675,
     "collections": [
         {
+            "col_name": "mrp-static",
+            "nr_of_documents": 4350,
+            "nr_of_fields": 13,
+            "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
+            "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
+            "service_ids": "28624"
+        },
+        {
+            "col_name": "emt",
+            "nr_of_documents": 1599,
+            "nr_of_fields": 22,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "tillich-briefe",
+            "nr_of_documents": 1325,
+            "nr_of_fields": 20,
+            "owners": "Peter Andorfer, Thomas Klampfl",
+            "description": "https://github.com/TillichCorrespondence/tillich-briefe-static",
+            "service_ids": "22113"
+        },
+        {
+            "col_name": "schnitzler-briefe",
+            "nr_of_documents": 4356,
+            "nr_of_fields": 29,
+            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-briefe-static",
+            "service_ids": "21741"
+        },
+        {
+            "col_name": "stb",
+            "nr_of_documents": 16423,
+            "nr_of_fields": 8,
+            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-tagebuch-static",
+            "service_ids": "11833"
+        },
+        {
             "col_name": "schnitzler-interviews",
             "nr_of_documents": 182,
             "nr_of_fields": 18,
@@ -17,14 +57,6 @@
             "owners": "Peter Andorfer, Thomas Klampfl",
             "description": "https://github.com/TillichCorrespondence/tillich-lectures-static",
             "service_ids": "23501"
-        },
-        {
-            "col_name": "emt",
-            "nr_of_documents": 1599,
-            "nr_of_fields": 22,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
         },
         {
             "col_name": "baedeker",
@@ -73,14 +105,6 @@
             "owners": "Peter Andorfer, Bernhard Oberreither",
             "description": "https://github.com/karl-kraus/kb-static",
             "service_ids": "26461"
-        },
-        {
-            "col_name": "tillich-briefe",
-            "nr_of_documents": 1325,
-            "nr_of_fields": 20,
-            "owners": "Peter Andorfer, Thomas Klampfl",
-            "description": "https://github.com/TillichCorrespondence/tillich-briefe-static",
-            "service_ids": "22113"
         },
         {
             "col_name": "kalbeck-tagebuch-static",
@@ -163,14 +187,6 @@
             "service_ids": "22954"
         },
         {
-            "col_name": "mrp-static",
-            "nr_of_documents": 4350,
-            "nr_of_fields": 13,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
             "col_name": "dse-static",
             "nr_of_documents": 3,
             "nr_of_fields": 16,
@@ -219,22 +235,6 @@
             "service_ids": "not set"
         },
         {
-            "col_name": "schnitzler-briefe",
-            "nr_of_documents": 4356,
-            "nr_of_fields": 29,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "stb",
-            "nr_of_documents": 16423,
-            "nr_of_fields": 8,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
             "col_name": "schnitzler-chronik",
             "nr_of_documents": 66573,
             "nr_of_fields": 5,
@@ -254,9 +254,9 @@
             "col_name": "bundes_verfassung_oesterreich",
             "nr_of_documents": 5947,
             "nr_of_fields": 16,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "Peter Andorfer, Carl Friedrich Haak",
+            "description": "Index of the Austrian Federal Constitution (Bundes-Verfassungsgesetz)documents and subsections of documents are both indexed as documents, to make the full text but also the different documents as such searchable.",
+            "service_ids": "21497"
         },
         {
             "col_name": "dieinsel_index_articles",
@@ -286,17 +286,17 @@
             "col_name": "the-knowledge-base-website",
             "nr_of_documents": 0,
             "nr_of_fields": 8,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "barbara.krautgartner@oeaw.ac.at",
+            "description": "The Knowledge Base - Website",
+            "service_ids": "23717"
         },
         {
             "col_name": "the-knowledge-base-resources",
             "nr_of_documents": 0,
             "nr_of_fields": 17,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "barbara.krautgartner@oeaw.ac.at",
+            "description": "The Knowledge Base - Resources",
+            "service_ids": "23717"
         },
         {
             "col_name": "schubert_ci",
@@ -566,9 +566,9 @@
             "col_name": "clariah-at-platform",
             "nr_of_documents": 155,
             "nr_of_fields": 10,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "barbara.krautgartner@oeaw.ac.at",
+            "description": "CLARIAH-AT platform",
+            "service_ids": "23717"
         },
         {
             "col_name": "brenner",
@@ -590,9 +590,9 @@
             "col_name": "bruckner-bibliographie",
             "nr_of_documents": 9847,
             "nr_of_fields": 3,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "barbara.krautgartner@oeaw.ac.at, stefan.probst@oeaw.ac.at",
+            "description": "Bruckner Online",
+            "service_ids": "22508"
         },
         {
             "col_name": "dhq-search",
