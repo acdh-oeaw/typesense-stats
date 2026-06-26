@@ -3,6 +3,22 @@
     "nr_of_documents": 1115675,
     "collections": [
         {
+            "col_name": "rita",
+            "nr_of_documents": 64,
+            "nr_of_fields": 6,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/acdh-oeaw/daacda-static",
+            "service_ids": "6930"
+        },
+        {
+            "col_name": "daacda",
+            "nr_of_documents": 8124,
+            "nr_of_fields": 17,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/acdh-oeaw/daacda-static",
+            "service_ids": "25177"
+        },
+        {
             "col_name": "akademie-static",
             "nr_of_documents": 1728,
             "nr_of_fields": 9,
@@ -547,14 +563,6 @@
             "service_ids": "not set"
         },
         {
-            "col_name": "daacda",
-            "nr_of_documents": 8124,
-            "nr_of_fields": 17,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
             "col_name": "thun-static",
             "nr_of_documents": 865,
             "nr_of_fields": 9,
@@ -765,14 +773,6 @@
         {
             "col_name": "freud-edition",
             "nr_of_documents": 5641,
-            "nr_of_fields": 6,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "rita",
-            "nr_of_documents": 64,
             "nr_of_fields": 6,
             "owners": "not set",
             "description": "not set",

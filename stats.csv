@@ -17,7 +17,7 @@ fackel-texte,12371,6,not set,not set,not set
 bruckner-bibliographie,9847,3,"barbara.krautgartner@oeaw.ac.at, stefan.probst@oeaw.ac.at",Bruckner Online,22508
 oeml-search,9788,22,not set,not set,not set
 oeml-search-local,9774,10,@peterpro,search data for oeml-static,23145
-daacda,8124,17,not set,not set,not set
+daacda,8124,17,Peter Andorfer,https://github.com/acdh-oeaw/daacda-static,25177
 brenner,7945,12,not set,not set,not set
 hsl,7885,9,not set,not set,not set
 hbtv,6780,8,not set,not set,not set
@@ -94,7 +94,7 @@ flugblaetter_todesurteile,111,21,not set,not set,not set
 schubert,91,54,not set,not set,not set
 nbr-pius-xi,74,6,not set,not set,not set
 walpurgisnacht,65,7,not set,not set,not set
-rita,64,6,not set,not set,not set
+rita,64,6,Peter Andorfer,https://github.com/acdh-oeaw/daacda-static,6930
 mahler-wv,58,10,not set,not set,not set
 mahler,58,6,not set,not set,not set
 hit__strata,54,54,not set,not set,not set
