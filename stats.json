@@ -3,12 +3,20 @@
     "nr_of_documents": 1115675,
     "collections": [
         {
-            "col_name": "wkfm",
-            "nr_of_documents": 1945,
+            "col_name": "schnitzler-chronik",
+            "nr_of_documents": 66573,
+            "nr_of_fields": 5,
+            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-chronik-static",
+            "service_ids": "21628"
+        },
+        {
+            "col_name": "Schnitzler-Zeitungen",
+            "nr_of_documents": 22571,
             "nr_of_fields": 4,
-            "owners": "Peter Andorfer",
-            "description": "https://github.com/donauhandel/wkfm-static",
-            "service_ids": "20289"
+            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-zeitungen-static",
+            "service_ids": "15042"
         },
         {
             "col_name": "schubert_dev",
@@ -33,6 +41,14 @@
             "owners": "@peterpro",
             "description": "schnellsuche data for schubert staging",
             "service_ids": "22517"
+        },
+        {
+            "col_name": "wkfm",
+            "nr_of_documents": 1945,
+            "nr_of_fields": 4,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/donauhandel/wkfm-static",
+            "service_ids": "20289"
         },
         {
             "col_name": "rita",
@@ -262,14 +278,6 @@
             "col_name": "hit__msitems",
             "nr_of_documents": 235,
             "nr_of_fields": 183,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "schnitzler-chronik",
-            "nr_of_documents": 66573,
-            "nr_of_fields": 5,
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"
@@ -702,14 +710,6 @@
             "col_name": "maechtekongresse",
             "nr_of_documents": 113,
             "nr_of_fields": 13,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "Schnitzler-Zeitungen",
-            "nr_of_documents": 22571,
-            "nr_of_fields": 4,
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"
