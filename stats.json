@@ -1,7 +1,7 @@
 {
-    "nr_of_collections": 104,
+    "nr_of_collections": 98,
     "with_metadata": 52,
-    "nr_of_documents": 1115674,
+    "nr_of_documents": 1048635,
     "collections": [
         {
             "col_name": "schubert_dev",
@@ -588,14 +588,6 @@
             "service_ids": "not set"
         },
         {
-            "col_name": "jpbriefe",
-            "nr_of_documents": 5526,
-            "nr_of_fields": 15,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
             "col_name": "thun-static",
             "nr_of_documents": 865,
             "nr_of_fields": 9,
@@ -610,14 +602,6 @@
             "owners": "Barbara Krautgartner",
             "description": "CLARIAH-AT platform",
             "service_ids": "23817"
-        },
-        {
-            "col_name": "brenner",
-            "nr_of_documents": 7945,
-            "nr_of_fields": 12,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
         },
         {
             "col_name": "parlamint",
@@ -716,14 +700,6 @@
             "service_ids": "not set"
         },
         {
-            "col_name": "teaching-paradimes",
-            "nr_of_documents": 16075,
-            "nr_of_fields": 40,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
             "col_name": "prosnet-wikidata-organization-index",
             "nr_of_documents": 5531,
             "nr_of_fields": 5,
@@ -791,30 +767,6 @@
             "col_name": "schnitzler-kino",
             "nr_of_documents": 821,
             "nr_of_fields": 4,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "fackel-texte",
-            "nr_of_documents": 12371,
-            "nr_of_fields": 6,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "abcd-db",
-            "nr_of_documents": 21968,
-            "nr_of_fields": 12,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "staribacher",
-            "nr_of_documents": 3154,
-            "nr_of_fields": 6,
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"
