@@ -1,22 +1,22 @@
 {
     "nr_of_collections": 104,
-    "nr_of_documents": 1115675,
+    "nr_of_documents": 1115674,
     "collections": [
         {
-            "col_name": "schnitzler-chronik",
-            "nr_of_documents": 66573,
-            "nr_of_fields": 5,
-            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
-            "description": "https://github.com/arthur-schnitzler/schnitzler-chronik-static",
-            "service_ids": "21628"
+            "col_name": "grundbuecher",
+            "nr_of_documents": 1999,
+            "nr_of_fields": 4,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/KONDE-AT/grundbuecher-static",
+            "service_ids": "12131"
         },
         {
-            "col_name": "Schnitzler-Zeitungen",
-            "nr_of_documents": 22571,
-            "nr_of_fields": 4,
-            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
-            "description": "https://github.com/arthur-schnitzler/schnitzler-zeitungen-static",
-            "service_ids": "15042"
+            "col_name": "emt",
+            "nr_of_documents": 1599,
+            "nr_of_fields": 22,
+            "owners": "Peter Andorfer, Kinga Sram\u00f3",
+            "description": "https://github.com/emt-project/emt-static",
+            "service_ids": "21311"
         },
         {
             "col_name": "schubert_dev",
@@ -41,6 +41,22 @@
             "owners": "@peterpro",
             "description": "schnellsuche data for schubert staging",
             "service_ids": "22517"
+        },
+        {
+            "col_name": "schnitzler-chronik",
+            "nr_of_documents": 66573,
+            "nr_of_fields": 5,
+            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-chronik-static",
+            "service_ids": "21628"
+        },
+        {
+            "col_name": "Schnitzler-Zeitungen",
+            "nr_of_documents": 22571,
+            "nr_of_fields": 4,
+            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-zeitungen-static",
+            "service_ids": "15042"
         },
         {
             "col_name": "wkfm",
@@ -89,14 +105,6 @@
             "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
             "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
             "service_ids": "28624"
-        },
-        {
-            "col_name": "emt",
-            "nr_of_documents": 1599,
-            "nr_of_fields": 22,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
         },
         {
             "col_name": "tillich-briefe",
@@ -372,7 +380,7 @@
         },
         {
             "col_name": "dariah-website",
-            "nr_of_documents": 3017,
+            "nr_of_documents": 3016,
             "nr_of_fields": 8,
             "owners": "stefan.probst@oeaw.ac.at",
             "description": "DARIAH.eu website",
@@ -686,14 +694,6 @@
             "col_name": "amp",
             "nr_of_documents": 222,
             "nr_of_fields": 18,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "grundbuecher",
-            "nr_of_documents": 1999,
-            "nr_of_fields": 4,
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"

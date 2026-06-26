@@ -34,7 +34,7 @@ legalkraus,4002,34,"Peter Andorfer, Barbara Krautgartner",https://github.com/kar
 wiener-rundschau-static,3482,12,Peter Andorfer,https://github.com/acdh-oeaw/wiener-rundschau-static,26179
 staribacher,3154,6,not set,not set,not set
 baedeker,3017,10,Peter Andorfer,https://github.com/acdh-oeaw/bd-static,25507
-dariah-website,3017,8,stefan.probst@oeaw.ac.at,DARIAH.eu website,"22513, 25534"
+dariah-website,3016,8,stefan.probst@oeaw.ac.at,DARIAH.eu website,"22513, 25534"
 schubert_ci_schnellsuche,2987,9,not set,not set,not set
 schubert_dev_schnellsuche,2985,9,@peterpro,schnellsuche data for schubert staging,22517
 viecpro_v3_place_detail,2817,17,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
@@ -43,10 +43,10 @@ mahler-letters,2636,14,not set,not set,not set
 JAD-temp,2319,60,Ivana Dobcheva,"index for the JAD project, indexing all passages",23082
 brahms,2077,17,not set,not set,not set
 nbr-graz,2041,7,not set,not set,not set
-grundbuecher,1999,4,not set,not set,not set
+grundbuecher,1999,4,Peter Andorfer,https://github.com/KONDE-AT/grundbuecher-static,12131
 wkfm,1945,4,Peter Andorfer,https://github.com/donauhandel/wkfm-static,20289
 akademie-static,1728,9,"Peter Andorfer, Kinga Sramó",https://github.com/acdh-oeaw/akademie-static,18716
-emt,1599,22,not set,not set,not set
+emt,1599,22,"Peter Andorfer, Kinga Sramó",https://github.com/emt-project/emt-static,21311
 viecpro_v3_institution_detail,1548,17,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 viecpro_v3_institution,1548,10,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 bahr-static,1367,8,not set,not set,not set
