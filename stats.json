@@ -3,6 +3,30 @@
     "nr_of_documents": 1115675,
     "collections": [
         {
+            "col_name": "schubert_dev",
+            "nr_of_documents": 228,
+            "nr_of_fields": 58,
+            "owners": "@peterpro",
+            "description": "sources data for schubert staging",
+            "service_ids": "22517"
+        },
+        {
+            "col_name": "schubert_dev_works",
+            "nr_of_documents": 1097,
+            "nr_of_fields": 16,
+            "owners": "@peterpro",
+            "description": "works data for schubert staging",
+            "service_ids": "22517"
+        },
+        {
+            "col_name": "schubert_dev_schnellsuche",
+            "nr_of_documents": 2985,
+            "nr_of_fields": 9,
+            "owners": "@peterpro",
+            "description": "schnellsuche data for schubert staging",
+            "service_ids": "22517"
+        },
+        {
             "col_name": "rita",
             "nr_of_documents": 64,
             "nr_of_fields": 6,
@@ -153,30 +177,6 @@
             "owners": "@peterpro",
             "description": "search data for oeml-static",
             "service_ids": "23145"
-        },
-        {
-            "col_name": "schubert_dev",
-            "nr_of_documents": 228,
-            "nr_of_fields": 58,
-            "owners": "@peterpro",
-            "description": "sources data for schubert staging",
-            "service_ids": "22517"
-        },
-        {
-            "col_name": "schubert_dev_works",
-            "nr_of_documents": 1097,
-            "nr_of_fields": 16,
-            "owners": "@peterpro",
-            "description": "works data for schubert staging",
-            "service_ids": "22517"
-        },
-        {
-            "col_name": "schubert_dev_schnellsuche",
-            "nr_of_documents": 2985,
-            "nr_of_fields": 9,
-            "owners": "@peterpro",
-            "description": "schnellsuche data for schubert staging",
-            "service_ids": "22517"
         },
         {
             "col_name": "ofm_graz",
@@ -574,9 +574,9 @@
             "col_name": "clariah-at-platform",
             "nr_of_documents": 155,
             "nr_of_fields": 10,
-            "owners": "barbara.krautgartner@oeaw.ac.at",
+            "owners": "Barbara Krautgartner",
             "description": "CLARIAH-AT platform",
-            "service_ids": "23717"
+            "service_ids": "23817"
         },
         {
             "col_name": "brenner",
@@ -598,8 +598,8 @@
             "col_name": "bruckner-bibliographie",
             "nr_of_documents": 9847,
             "nr_of_fields": 3,
-            "owners": "barbara.krautgartner@oeaw.ac.at, stefan.probst@oeaw.ac.at",
-            "description": "Bruckner Online",
+            "owners": "Barbara Krautgartner, Stefan Probst",
+            "description": "Bruckner Online Bibliographie",
             "service_ids": "22508"
         },
         {
@@ -726,32 +726,32 @@
             "col_name": "prosnet-wikidata-organization-index",
             "nr_of_documents": 5531,
             "nr_of_fields": 5,
-            "owners": "not set",
-            "description": "not set",
+            "owners": "matthias.schloegl@oeaw.ac.at",
+            "description": "Autocomplete sources shared by APIS instances",
             "service_ids": "not set"
         },
         {
             "col_name": "prosnet-geonames-place-index",
             "nr_of_documents": 170352,
             "nr_of_fields": 5,
-            "owners": "not set",
-            "description": "not set",
+            "owners": "matthias.schloegl@oeaw.ac.at",
+            "description": "Autocomplete sources shared by APIS instances",
             "service_ids": "not set"
         },
         {
             "col_name": "prosnet-wikidata-place-index",
             "nr_of_documents": 83258,
             "nr_of_fields": 5,
-            "owners": "not set",
-            "description": "not set",
+            "owners": "matthias.schloegl@oeaw.ac.at",
+            "description": "Autocomplete sources shared by APIS instances",
             "service_ids": "not set"
         },
         {
             "col_name": "prosnet-wikidata-person-index",
             "nr_of_documents": 21294,
             "nr_of_fields": 7,
-            "owners": "not set",
-            "description": "not set",
+            "owners": "matthias.schloegl@oeaw.ac.at",
+            "description": "Autocomplete sources shared by APIS instances",
             "service_ids": "not set"
         },
         {
