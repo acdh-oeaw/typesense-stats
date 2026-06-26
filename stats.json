@@ -3,6 +3,22 @@
     "nr_of_documents": 1115675,
     "collections": [
         {
+            "col_name": "akademie-static",
+            "nr_of_documents": 1728,
+            "nr_of_fields": 9,
+            "owners": "Peter Andorfer, Kinga Sram\u00f3",
+            "description": "https://github.com/acdh-oeaw/akademie-static",
+            "service_ids": "18716"
+        },
+        {
+            "col_name": "Schnitzler-Mikrofilme",
+            "nr_of_documents": 44326,
+            "nr_of_fields": 5,
+            "owners": "Peter Andorfer, Martin Anton M\u00fcller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-mikrofilme-static",
+            "service_ids": "22703"
+        },
+        {
             "col_name": "mrp-static",
             "nr_of_documents": 4350,
             "nr_of_fields": 13,
@@ -113,14 +129,6 @@
             "owners": "Peter Andorfer, Fernando Sanz-L\u00e1zaro",
             "description": "'Max Kalbeck Tagebuch' (https://github.com/max-kalbeck/kalbeck-tagebuch-static)",
             "service_ids": "26167"
-        },
-        {
-            "col_name": "akademie-static",
-            "nr_of_documents": 1728,
-            "nr_of_fields": 9,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
         },
         {
             "col_name": "oeml-search-local",
@@ -374,14 +382,6 @@
             "col_name": "hsl",
             "nr_of_documents": 7885,
             "nr_of_fields": 9,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "Schnitzler-Mikrofilme",
-            "nr_of_documents": 44326,
-            "nr_of_fields": 5,
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"
