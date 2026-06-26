@@ -52,14 +52,14 @@ viecpro_v3_institution,1548,10,matthias.schloegl@oeaw.ac.at,VieCPro (https://vie
 bahr-static,1367,8,not set,not set,not set
 tillich-briefe,1325,20,"Peter Andorfer, Thomas Klampfl",https://github.com/TillichCorrespondence/tillich-briefe-static,22113
 parlamint,1221,7,not set,not set,not set
-dhd-abstracts,1180,9,not set,not set,not set
+dhd-abstracts,1180,9,Peter Andorfer,https://github.com/acdh-oeaw/dhd-abstracts-static,24892
 gestrich_index,1144,22,not set,not set,not set
 dariah-resources,1114,17,stefan.probst@oeaw.ac.at,DARIAH Resource Catalogue,"22513, 25534"
 schubert_dev_works,1097,16,@peterpro,works data for schubert staging,22517
 schubert_ci_works,1097,11,not set,not set,not set
 thomas-bernhard,1069,15,not set,not set,not set
 pollaczek,990,4,not set,not set,not set
-gtrans,939,16,not set,not set,not set
+gtrans,939,16,Peter Andorfer,https://github.com/acdh-oeaw/gtrans-static,10758
 mahler-performances,938,16,not set,not set,not set
 thun-static,865,9,not set,not set,not set
 schnitzler-kino,821,4,not set,not set,not set

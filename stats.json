@@ -3,6 +3,22 @@
     "nr_of_documents": 1115674,
     "collections": [
         {
+            "col_name": "dhd-abstracts",
+            "nr_of_documents": 1180,
+            "nr_of_fields": 9,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/acdh-oeaw/dhd-abstracts-static",
+            "service_ids": "24892"
+        },
+        {
+            "col_name": "gtrans",
+            "nr_of_documents": 939,
+            "nr_of_fields": 16,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/acdh-oeaw/gtrans-static",
+            "service_ids": "10758"
+        },
+        {
             "col_name": "hit__strata",
             "nr_of_documents": 54,
             "nr_of_fields": 54,
@@ -555,14 +571,6 @@
             "service_ids": "not set"
         },
         {
-            "col_name": "gtrans",
-            "nr_of_documents": 939,
-            "nr_of_fields": 16,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
             "col_name": "hbtv-v3",
             "nr_of_documents": 6780,
             "nr_of_fields": 14,
@@ -630,14 +638,6 @@
             "col_name": "dhq-search",
             "nr_of_documents": 616,
             "nr_of_fields": 7,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "dhd-abstracts",
-            "nr_of_documents": 1180,
-            "nr_of_fields": 9,
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"
