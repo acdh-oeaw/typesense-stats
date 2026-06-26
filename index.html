@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACDH-Typesense-Stats</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://unpkg.com/tabulator-tables@6.3.1/dist/css/tabulator_bootstrap5.min.css" rel="stylesheet">
+    <style>
+      :root {
+        --dashboard-bg: #f3f6fb;
+        --card-border: #d9e1ec;
+        --card-bg: #ffffff;
+        --heading: #0b1f3a;
+        --muted: #49566b;
+      }
+
+      body {
+        background: radial-gradient(circle at 10% 0%, #dbe8ff 0%, var(--dashboard-bg) 35%, #eef2f8 100%);
+        color: #12243c;
+        min-height: 100vh;
+      }
+
+      .dashboard-shell {
+        max-width: 1320px;
+      }
+
+      .page-title {
+        color: var(--heading);
+        letter-spacing: 0.03em;
+        font-weight: 800;
+      }
+
+      .page-subtitle {
+        color: var(--muted);
+      }
+
+      .metric-card,
+      .panel-card {
+        background: var(--card-bg);
+        border: 1px solid var(--card-border);
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(30, 51, 87, 0.08);
+      }
+
+      .metric-label {
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--muted);
+        font-size: 0.75rem;
+        font-weight: 700;
+      }
+
+      .metric-value {
+        font-size: 1.9rem;
+        font-weight: 800;
+        color: #11345d;
+        line-height: 1.1;
+      }
+
+      .panel-title {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #16325c;
+      }
+
+      #collections-table {
+        min-height: 420px;
+      }
+
+      .chart-box {
+        position: relative;
+        height: 360px;
+      }
+
+      .status-message {
+        color: #8c2f2f;
+        font-weight: 600;
+      }
+
+      .skip-link {
+        position: absolute;
+        top: -48px;
+        left: 12px;
+        z-index: 1000;
+        background: #0b1f3a;
+        color: #ffffff;
+        padding: 0.5rem 0.75rem;
+        border-radius: 6px;
+        text-decoration: none;
+      }
+
+      .skip-link:focus {
+        top: 10px;
+      }
+
+      a:focus-visible,
+      button:focus-visible,
+      input:focus-visible,
+      select:focus-visible,
+      [tabindex]:focus-visible {
+        outline: 3px solid #005fcc;
+        outline-offset: 2px;
+      }
+
+      @media (max-width: 992px) {
+        .chart-box {
+          height: 320px;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .chart-box {
+          height: 280px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <main id="main-content" class="container py-4 py-lg-5 dashboard-shell" tabindex="-1">
+      <header class="mb-4">
+        <h1 class="page-title mb-1">ACDH Typesense Stats Dashboard</h1>
+        <p class="page-subtitle mb-0">Static analytics view powered by local CSV and JSON files.</p>
+      </header>
+
+      <section class="row g-3 mb-4" aria-labelledby="metrics-heading">
+        <h2 id="metrics-heading" class="visually-hidden">Key metrics</h2>
+        <div class="col-6 col-lg-3">
+          <article class="metric-card p-3 h-100">
+            <div class="metric-label">Collections</div>
+            <div id="metric-collections" class="metric-value">-</div>
+          </article>
+        </div>
+        <div class="col-6 col-lg-3">
+          <article class="metric-card p-3 h-100">
+            <div class="metric-label">Documents</div>
+            <div id="metric-documents" class="metric-value">-</div>
+          </article>
+        </div>
+        <div class="col-6 col-lg-3">
+          <article class="metric-card p-3 h-100">
+            <div class="metric-label">With Metadata</div>
+            <div id="metric-with-metadata" class="metric-value">-</div>
+          </article>
+        </div>
+        <div class="col-6 col-lg-3">
+          <article class="metric-card p-3 h-100">
+            <div class="metric-label">Avg Fields / Collection</div>
+            <div id="metric-avg-fields" class="metric-value">-</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="row g-3 mb-4" aria-labelledby="charts-heading">
+        <h2 id="charts-heading" class="visually-hidden">Charts</h2>
+        <div class="col-12 col-xl-8">
+          <article class="panel-card p-3 h-100">
+            <h2 class="panel-title mb-3">Top 10 Collections by Documents</h2>
+            <div class="chart-box">
+              <canvas id="documents-chart" aria-label="Column chart showing top 10 collections by number of documents" role="img"></canvas>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-xl-4">
+          <article class="panel-card p-3 h-100">
+            <h2 class="panel-title mb-3">Top Owners by Collection Count</h2>
+            <div class="chart-box">
+              <canvas id="owners-chart" aria-label="Bar chart showing owners with the highest number of collections" role="img"></canvas>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel-card p-3" aria-labelledby="table-heading" aria-describedby="table-description">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h2 id="table-heading" class="panel-title mb-0">Collections</h2>
+          <small class="text-muted">CSV source: stats.csv</small>
+        </div>
+        <p id="table-description" class="visually-hidden">Interactive table of collections with sortable columns, text filters, and pagination controls.</p>
+        <div id="collections-table"></div>
+      </section>
+
+      <p id="status-message" class="status-message mt-3 mb-0" role="status" aria-live="polite" aria-atomic="true"></p>
+    </main>
+
+    <script src="https://unpkg.com/tabulator-tables@6.3.1/dist/js/tabulator.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+      let documentsChartInstance = null;
+      let ownersChartInstance = null;
+
+      function isNarrowScreen() {
+        return window.matchMedia("(max-width: 576px)").matches;
+      }
+
+      function formatInteger(value) {
+        return Number(value || 0).toLocaleString("en-US");
+      }
+
+      function parseCsv(text) {
+        const rows = [];
+        let current = "";
+        let row = [];
+        let inQuotes = false;
+
+        for (let i = 0; i < text.length; i += 1) {
+          const char = text[i];
+          const next = text[i + 1];
+
+          if (char === '"') {
+            if (inQuotes && next === '"') {
+              current += '"';
+              i += 1;
+            } else {
+              inQuotes = !inQuotes;
+            }
+          } else if (char === ',' && !inQuotes) {
+            row.push(current);
+            current = "";
+          } else if ((char === "\n" || char === "\r") && !inQuotes) {
+            if (char === "\r" && next === "\n") {
+              i += 1;
+            }
+            if (current.length > 0 || row.length > 0) {
+              row.push(current);
+              rows.push(row);
+              row = [];
+              current = "";
+            }
+          } else {
+            current += char;
+          }
+        }
+
+        if (current.length > 0 || row.length > 0) {
+          row.push(current);
+          rows.push(row);
+        }
+
+        if (rows.length === 0) {
+          return [];
+        }
+
+        const headers = rows[0].map((header) => header.trim());
+        return rows.slice(1).map((values) => {
+          const entry = {};
+          headers.forEach((header, index) => {
+            entry[header] = (values[index] || "").trim();
+          });
+
+          entry.nr_of_documents = Number(entry.nr_of_documents || 0);
+          entry.nr_of_fields = Number(entry.nr_of_fields || 0);
+          return entry;
+        });
+      }
+
+      function buildOwnersSummary(collections) {
+        const ownerCount = new Map();
+
+        collections.forEach((collection) => {
+          const ownersRaw = collection.owners || "";
+          if (!ownersRaw || ownersRaw.toLowerCase() === "not set") {
+            return;
+          }
+
+          ownersRaw.split(",").forEach((owner) => {
+            const cleaned = owner.trim();
+            if (!cleaned) {
+              return;
+            }
+            ownerCount.set(cleaned, (ownerCount.get(cleaned) || 0) + 1);
+          });
+        });
+
+        return [...ownerCount.entries()]
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 10);
+      }
+
+      function renderMetrics(jsonStats, csvCollections) {
+        const totalFields = csvCollections.reduce((sum, item) => sum + Number(item.nr_of_fields || 0), 0);
+        const averageFields = csvCollections.length ? (totalFields / csvCollections.length) : 0;
+
+        document.getElementById("metric-collections").textContent = formatInteger(jsonStats.nr_of_collections || csvCollections.length);
+        document.getElementById("metric-documents").textContent = formatInteger(jsonStats.nr_of_documents || 0);
+        document.getElementById("metric-with-metadata").textContent = formatInteger(jsonStats.with_metadata || 0);
+        document.getElementById("metric-avg-fields").textContent = averageFields.toFixed(1);
+      }
+
+      function renderDocumentsChart(collections) {
+        if (!window.Chart) {
+          return;
+        }
+
+        const top = [...collections]
+          .sort((a, b) => b.nr_of_documents - a.nr_of_documents)
+          .slice(0, 10);
+
+        const canvas = document.getElementById("documents-chart");
+        if (!canvas) {
+          return;
+        }
+
+        if (documentsChartInstance) {
+          documentsChartInstance.destroy();
+        }
+
+        documentsChartInstance = new Chart(canvas, {
+          type: "bar",
+          data: {
+            labels: top.map((item) => item.col_name),
+            datasets: [{
+              label: "Documents",
+              data: top.map((item) => item.nr_of_documents),
+              backgroundColor: "#1d5fbf"
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: {
+                  label: (context) => `${formatInteger(context.parsed.y)} documents`
+                }
+              }
+            },
+            scales: {
+              x: {
+                ticks: {
+                  autoSkip: true,
+                  maxRotation: isNarrowScreen() ? 0 : 45,
+                  minRotation: 0,
+                  font: { size: isNarrowScreen() ? 10 : 11 },
+                  callback: (value, index) => {
+                    const label = top[index]?.col_name || "";
+                    return label.length > 16 ? `${label.slice(0, 16)}...` : label;
+                  }
+                }
+              },
+              y: {
+                beginAtZero: true,
+                ticks: {
+                  callback: (value) => formatInteger(value),
+                  font: { size: isNarrowScreen() ? 10 : 11 }
+                },
+                title: {
+                  display: true,
+                  text: "Documents"
+                }
+              }
+            }
+          }
+        });
+      }
+
+      function renderOwnersChart(collections) {
+        if (!window.Chart) {
+          return;
+        }
+
+        const ownerSummary = buildOwnersSummary(collections);
+
+        const canvas = document.getElementById("owners-chart");
+        if (!canvas) {
+          return;
+        }
+
+        if (ownersChartInstance) {
+          ownersChartInstance.destroy();
+        }
+
+        ownersChartInstance = new Chart(canvas, {
+          type: "bar",
+          data: {
+            labels: ownerSummary.map((item) => item[0]),
+            datasets: [{
+              label: "Collections",
+              data: ownerSummary.map((item) => item[1]),
+              backgroundColor: "#2f8a5e"
+            }]
+          },
+          options: {
+            indexAxis: "y",
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: {
+                  label: (context) => `${formatInteger(context.parsed.x)} collections`
+                }
+              }
+            },
+            scales: {
+              x: {
+                beginAtZero: true,
+                ticks: {
+                  callback: (value) => formatInteger(value),
+                  font: { size: isNarrowScreen() ? 10 : 11 }
+                },
+                title: {
+                  display: true,
+                  text: "Collections"
+                }
+              },
+              y: {
+                ticks: {
+                  font: { size: isNarrowScreen() ? 10 : 11 },
+                  callback: (value, index) => {
+                    const label = ownerSummary[index]?.[0] || "";
+                    return label.length > 18 ? `${label.slice(0, 18)}...` : label;
+                  }
+                }
+              }
+            }
+          }
+        });
+      }
+
+      function renderTable(collections) {
+        new Tabulator("#collections-table", {
+          data: collections,
+          accessibility: false,
+          layout: "fitDataStretch",
+          pagination: true,
+          paginationSize: 20,
+          paginationSizeSelector: [20, 50, 100],
+          initialSort: [{ column: "nr_of_documents", dir: "desc" }],
+          columns: [
+            {
+              title: "Collection",
+              field: "col_name",
+              headerFilter: "input",
+              headerFilterPlaceholder: "Filter collection",
+              headerFilterParams: { elementAttributes: { "aria-label": "Filter by collection", title: "Filter by collection" } },
+              minWidth: 220
+            },
+            { title: "Documents", field: "nr_of_documents", hozAlign: "right", sorter: "number", formatter: "money", formatterParams: { precision: 0, thousand: ",", symbol: "" } },
+            { title: "Fields", field: "nr_of_fields", hozAlign: "right", sorter: "number" },
+            {
+              title: "Owners",
+              field: "owners",
+              headerFilter: "input",
+              headerFilterPlaceholder: "Filter owners",
+              headerFilterParams: { elementAttributes: { "aria-label": "Filter by owners", title: "Filter by owners" } },
+              minWidth: 200
+            },
+            {
+              title: "Description",
+              field: "description",
+              headerFilter: "input",
+              headerFilterPlaceholder: "Filter description",
+              headerFilterParams: { elementAttributes: { "aria-label": "Filter by description", title: "Filter by description" } },
+              widthGrow: 2
+            },
+            {
+              title: "Service IDs",
+              field: "service_ids",
+              headerFilter: "input",
+              headerFilterPlaceholder: "Filter service IDs",
+              headerFilterParams: { elementAttributes: { "aria-label": "Filter by service IDs", title: "Filter by service IDs" } },
+              minWidth: 140
+            }
+          ]
+        });
+      }
+
+      function normalizeTabulatorAria() {
+        const root = document.getElementById("collections-table");
+        if (!root) {
+          return;
+        }
+
+        const stripRoles = () => {
+          root.removeAttribute("role");
+          root.removeAttribute("aria-multiselectable");
+          root.setAttribute("aria-label", "Collections data table");
+
+          root.querySelectorAll("[role]").forEach((element) => {
+            element.removeAttribute("role");
+          });
+
+          root.querySelectorAll("[aria-sort]").forEach((element) => {
+            element.removeAttribute("aria-sort");
+          });
+        };
+
+        stripRoles();
+
+        if (!root.dataset.a11yObserverAttached) {
+          const observer = new MutationObserver(() => {
+            stripRoles();
+          });
+
+          observer.observe(root, {
+            subtree: true,
+            childList: true,
+            attributes: true,
+            attributeFilter: ["role", "aria-multiselectable"]
+          });
+
+          root.dataset.a11yObserverAttached = "true";
+        }
+      }
+
+      async function initDashboard() {
+        const status = document.getElementById("status-message");
+        status.textContent = "Loading dashboard data.";
+
+        try {
+          const [csvResponse, jsonResponse] = await Promise.all([
+            fetch("./stats.csv"),
+            fetch("./stats.json")
+          ]);
+
+          if (!csvResponse.ok || !jsonResponse.ok) {
+            throw new Error("Failed to load stats files. Make sure stats.csv and stats.json are available.");
+          }
+
+          const [csvText, jsonStats] = await Promise.all([
+            csvResponse.text(),
+            jsonResponse.json()
+          ]);
+
+          const csvCollections = parseCsv(csvText);
+
+          renderMetrics(jsonStats, csvCollections);
+
+          if (window.Chart) {
+            renderDocumentsChart(csvCollections);
+            renderOwnersChart(csvCollections);
+          } else {
+            const documentsCanvas = document.getElementById("documents-chart");
+            const ownersCanvas = document.getElementById("owners-chart");
+            documentsCanvas.replaceWith(Object.assign(document.createElement("p"), { textContent: "Chart library unavailable." }));
+            ownersCanvas.replaceWith(Object.assign(document.createElement("p"), { textContent: "Chart library unavailable." }));
+          }
+
+          renderTable(csvCollections);
+          requestAnimationFrame(normalizeTabulatorAria);
+          status.textContent = window.Chart
+            ? "Dashboard loaded successfully."
+            : "Dashboard loaded with table and metrics, but Chart.js failed to load from CDN.";
+        } catch (error) {
+          status.textContent = error.message + " Serve this page through a local static web server.";
+          console.error(error);
+        }
+      }
+
+      initDashboard();
+    </script>
+  </body>
+</html>
