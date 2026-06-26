@@ -3,6 +3,22 @@
     "nr_of_documents": 1115674,
     "collections": [
         {
+            "col_name": "hit__strata",
+            "nr_of_documents": 54,
+            "nr_of_fields": 54,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the HIT project, indexing all strata",
+            "service_ids": "23143"
+        },
+        {
+            "col_name": "hit__msitems",
+            "nr_of_documents": 235,
+            "nr_of_fields": 183,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the HIT project, indexing all msitems",
+            "service_ids": "23143"
+        },
+        {
             "col_name": "grundbuecher",
             "nr_of_documents": 1999,
             "nr_of_fields": 4,
@@ -270,22 +286,6 @@
             "col_name": "walpurgisnacht_umschrift",
             "nr_of_documents": 388,
             "nr_of_fields": 8,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "hit__strata",
-            "nr_of_documents": 54,
-            "nr_of_fields": 54,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "hit__msitems",
-            "nr_of_documents": 235,
-            "nr_of_fields": 183,
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"
