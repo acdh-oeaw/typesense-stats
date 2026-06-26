@@ -1,631 +1,630 @@
 {
-    "nr_of_collections": 125,
-    "nr_of_documents": 1816421,
+    "nr_of_collections": 104,
+    "nr_of_documents": 1115675,
     "collections": [
-        {
-            "col_name": "bundes_verfassung_oesterreich",
-            "nr_of_documents": 5947,
-            "nr_of_fields": 16
-        },
-        {
-            "col_name": "JAD-temp",
-            "nr_of_documents": 2319,
-            "nr_of_fields": 60
-        },
-        {
-            "col_name": "tillich-briefe",
-            "nr_of_documents": 1325,
-            "nr_of_fields": 20
-        },
-        {
-            "col_name": "akademie-static",
-            "nr_of_documents": 1728,
-            "nr_of_fields": 9
-        },
-        {
-            "col_name": "tillich-lectures",
-            "nr_of_documents": 660,
-            "nr_of_fields": 11
-        },
-        {
-            "col_name": "emt",
-            "nr_of_documents": 1600,
-            "nr_of_fields": 22
-        },
-        {
-            "col_name": "dse-static",
-            "nr_of_documents": 3,
-            "nr_of_fields": 16
-        },
-        {
-            "col_name": "oeml-search-local",
-            "nr_of_documents": 9774,
-            "nr_of_fields": 10
-        },
-        {
-            "col_name": "mrp-static",
-            "nr_of_documents": 4350,
-            "nr_of_fields": 13
-        },
-        {
-            "col_name": "schubert_dev",
-            "nr_of_documents": 228,
-            "nr_of_fields": 58
-        },
-        {
-            "col_name": "schubert_dev_works",
-            "nr_of_documents": 1097,
-            "nr_of_fields": 11
-        },
-        {
-            "col_name": "schubert_dev_schnellsuche",
-            "nr_of_documents": 2979,
-            "nr_of_fields": 9
-        },
-        {
-            "col_name": "hit__strata",
-            "nr_of_documents": 54,
-            "nr_of_fields": 54
-        },
-        {
-            "col_name": "hit__msitems",
-            "nr_of_documents": 235,
-            "nr_of_fields": 183
-        },
-        {
-            "col_name": "schnitzler-briefe",
-            "nr_of_documents": 4356,
-            "nr_of_fields": 29
-        },
         {
             "col_name": "letters1916-static",
             "nr_of_documents": 478,
-            "nr_of_fields": 19
-        },
-        {
-            "col_name": "stb",
-            "nr_of_documents": 16423,
-            "nr_of_fields": 8
-        },
-        {
-            "col_name": "schnitzler-chronik",
-            "nr_of_documents": 66538,
-            "nr_of_fields": 5
-        },
-        {
-            "col_name": "dieinsel_index_articles",
-            "nr_of_documents": 747,
-            "nr_of_fields": 34
-        },
-        {
-            "col_name": "dieinsel_index_uebersicht",
-            "nr_of_documents": 34,
-            "nr_of_fields": 15
-        },
-        {
-            "col_name": "aad",
-            "nr_of_documents": 467,
-            "nr_of_fields": 19
-        },
-        {
-            "col_name": "the-knowledge-base-website",
-            "nr_of_documents": 0,
-            "nr_of_fields": 8
-        },
-        {
-            "col_name": "the-knowledge-base-resources",
-            "nr_of_documents": 0,
-            "nr_of_fields": 17
-        },
-        {
-            "col_name": "schubert_ci",
-            "nr_of_documents": 191,
-            "nr_of_fields": 58
-        },
-        {
-            "col_name": "schubert_ci_schnellsuche",
-            "nr_of_documents": 2987,
-            "nr_of_fields": 9
-        },
-        {
-            "col_name": "nbr-pius-xi",
-            "nr_of_documents": 74,
-            "nr_of_fields": 6
-        },
-        {
-            "col_name": "schubert_ci_works",
-            "nr_of_documents": 1097,
-            "nr_of_fields": 11
-        },
-        {
-            "col_name": "armesuenderblaetter",
-            "nr_of_documents": 119,
-            "nr_of_fields": 22
-        },
-        {
-            "col_name": "dariah-website",
-            "nr_of_documents": 10475,
-            "nr_of_fields": 8
-        },
-        {
-            "col_name": "dariah-resources",
-            "nr_of_documents": 8570,
-            "nr_of_fields": 17
-        },
-        {
-            "col_name": "STB",
-            "nr_of_documents": 4895,
-            "nr_of_fields": 8
-        },
-        {
-            "col_name": "kalbeck-tagebuch-static",
-            "nr_of_documents": 340,
-            "nr_of_fields": 16
-        },
-        {
-            "col_name": "dariah-campus",
-            "nr_of_documents": 291,
-            "nr_of_fields": 8
+            "nr_of_fields": 19,
+            "owners": "Peter Andorfer"
         },
         {
             "col_name": "dig-ed-cat",
             "nr_of_documents": 358,
-            "nr_of_fields": 65
+            "nr_of_fields": 65,
+            "owners": "Peter Andorfer"
         },
         {
-            "col_name": "oeml-search",
-            "nr_of_documents": 9788,
-            "nr_of_fields": 22
-        },
-        {
-            "col_name": "walpurgisnacht",
-            "nr_of_documents": 65,
-            "nr_of_fields": 7
-        },
-        {
-            "col_name": "hbtv",
-            "nr_of_documents": 6780,
-            "nr_of_fields": 8
-        },
-        {
-            "col_name": "hsl",
-            "nr_of_documents": 7885,
-            "nr_of_fields": 9
-        },
-        {
-            "col_name": "Schnitzler-Mikrofilme",
-            "nr_of_documents": 44326,
-            "nr_of_fields": 5
-        },
-        {
-            "col_name": "brahms",
-            "nr_of_documents": 2077,
-            "nr_of_fields": 17
-        },
-        {
-            "col_name": "bahr-static",
-            "nr_of_documents": 1367,
-            "nr_of_fields": 8
-        },
-        {
-            "col_name": "schnitzler-interviews",
-            "nr_of_documents": 182,
-            "nr_of_fields": 18
-        },
-        {
-            "col_name": "OKAR",
-            "nr_of_documents": 61110,
-            "nr_of_fields": 15
-        },
-        {
-            "col_name": "mahler-letters",
-            "nr_of_documents": 2636,
-            "nr_of_fields": 14
-        },
-        {
-            "col_name": "mahler-discography",
-            "nr_of_documents": 543,
-            "nr_of_fields": 16
-        },
-        {
-            "col_name": "mahler-performances",
-            "nr_of_documents": 938,
-            "nr_of_fields": 16
-        },
-        {
-            "col_name": "mahler-wv",
-            "nr_of_documents": 58,
-            "nr_of_fields": 10
-        },
-        {
-            "col_name": "kb-static",
-            "nr_of_documents": 750,
-            "nr_of_fields": 11
-        },
-        {
-            "col_name": "flugblaetter_todesurteile",
-            "nr_of_documents": 111,
-            "nr_of_fields": 21
-        },
-        {
-            "col_name": "viecpro_v3_institution_detail",
-            "nr_of_documents": 1548,
-            "nr_of_fields": 17
-        },
-        {
-            "col_name": "viecpro_v3_institution",
-            "nr_of_documents": 1548,
-            "nr_of_fields": 10
-        },
-        {
-            "col_name": "viecpro_v3_place_detail",
-            "nr_of_documents": 2817,
-            "nr_of_fields": 17
-        },
-        {
-            "col_name": "viecpro_v3_place",
-            "nr_of_documents": 2817,
-            "nr_of_fields": 8
-        },
-        {
-            "col_name": "viecpro_v3_person_detail",
-            "nr_of_documents": 25766,
-            "nr_of_fields": 34
-        },
-        {
-            "col_name": "viecpro_v3_person",
-            "nr_of_documents": 25766,
-            "nr_of_fields": 11
-        },
-        {
-            "col_name": "flugblaetter_todesurteile_persons",
-            "nr_of_documents": 126,
-            "nr_of_fields": 20
-        },
-        {
-            "col_name": "baedeker",
-            "nr_of_documents": 3017,
-            "nr_of_fields": 10
-        },
-        {
-            "col_name": "wiener-rundschau-static",
-            "nr_of_documents": 3482,
-            "nr_of_fields": 12
-        },
-        {
-            "col_name": "pollaczek",
-            "nr_of_documents": 990,
-            "nr_of_fields": 4
-        },
-        {
-            "col_name": "gtrans",
-            "nr_of_documents": 939,
-            "nr_of_fields": 16
-        },
-        {
-            "col_name": "hbtv-v3",
-            "nr_of_documents": 6780,
-            "nr_of_fields": 14
-        },
-        {
-            "col_name": "hbtv-v2",
-            "nr_of_documents": 6780,
-            "nr_of_fields": 14
-        },
-        {
-            "col_name": "jpbriefe",
-            "nr_of_documents": 5526,
-            "nr_of_fields": 15
+            "col_name": "emt",
+            "nr_of_documents": 1599,
+            "nr_of_fields": 22,
+            "owners": "Peter Andorfer, Kinga Sram\u00f3"
         },
         {
             "col_name": "legalkraus",
             "nr_of_documents": 4002,
-            "nr_of_fields": 34
+            "nr_of_fields": 34,
+            "owners": "Peter Andorfer, Barbara Krautgartner"
+        },
+        {
+            "col_name": "kb-static",
+            "nr_of_documents": 750,
+            "nr_of_fields": 11,
+            "owners": "Peter Andorfer, Bernhard Oberreither"
+        },
+        {
+            "col_name": "tillich-briefe",
+            "nr_of_documents": 1325,
+            "nr_of_fields": 20,
+            "owners": "Peter Andorfer, Thomas Klampfl"
+        },
+        {
+            "col_name": "tillich-lectures",
+            "nr_of_documents": 660,
+            "nr_of_fields": 11,
+            "owners": "Peter Andorfer, Thomas Klampfl"
+        },
+        {
+            "col_name": "kalbeck-tagebuch-static",
+            "nr_of_documents": 341,
+            "nr_of_fields": 16,
+            "owners": "Peter Andorfer, Fernando Sanz-L\u00e1zaro"
+        },
+        {
+            "col_name": "akademie-static",
+            "nr_of_documents": 1728,
+            "nr_of_fields": 9,
+            "owners": "not set"
+        },
+        {
+            "col_name": "oeml-search-local",
+            "nr_of_documents": 9774,
+            "nr_of_fields": 10,
+            "owners": "@peterpro"
+        },
+        {
+            "col_name": "schubert_dev",
+            "nr_of_documents": 228,
+            "nr_of_fields": 58,
+            "owners": "@peterpro"
+        },
+        {
+            "col_name": "schubert_dev_works",
+            "nr_of_documents": 1097,
+            "nr_of_fields": 16,
+            "owners": "@peterpro"
+        },
+        {
+            "col_name": "schubert_dev_schnellsuche",
+            "nr_of_documents": 2985,
+            "nr_of_fields": 9,
+            "owners": "@peterpro"
+        },
+        {
+            "col_name": "ofm_graz",
+            "nr_of_documents": 51647,
+            "nr_of_fields": 14,
+            "owners": "Fernando Sanz-L\u00e1zaro"
+        },
+        {
+            "col_name": "tbo_work",
+            "nr_of_documents": 187,
+            "nr_of_fields": 13,
+            "owners": "matthias.schloegl@oeaw.ac.at"
+        },
+        {
+            "col_name": "JAD-temp",
+            "nr_of_documents": 2319,
+            "nr_of_fields": 60,
+            "owners": "Ivana Dobcheva"
+        },
+        {
+            "col_name": "armesuenderblaetter",
+            "nr_of_documents": 120,
+            "nr_of_fields": 22,
+            "owners": "Daniel Elsner, Fernando Sanz-Lazaro, LP"
+        },
+        {
+            "col_name": "mrp-static",
+            "nr_of_documents": 4350,
+            "nr_of_fields": 13,
+            "owners": "not set"
+        },
+        {
+            "col_name": "dse-static",
+            "nr_of_documents": 3,
+            "nr_of_fields": 16,
+            "owners": "dse-static-cookiecutter"
+        },
+        {
+            "col_name": "STB",
+            "nr_of_documents": 4895,
+            "nr_of_fields": 8,
+            "owners": "Peter Andorfer, Carl Friedrich Haak, Michaela Rausch-Supola, Fernando Sanz-L\u00e1zaro"
+        },
+        {
+            "col_name": "dariah-campus",
+            "nr_of_documents": 291,
+            "nr_of_fields": 8,
+            "owners": "stefan.probst@oeaw.ac.at"
+        },
+        {
+            "col_name": "walpurgisnacht_umschrift",
+            "nr_of_documents": 388,
+            "nr_of_fields": 8,
+            "owners": "not set"
+        },
+        {
+            "col_name": "hit__strata",
+            "nr_of_documents": 54,
+            "nr_of_fields": 54,
+            "owners": "not set"
+        },
+        {
+            "col_name": "hit__msitems",
+            "nr_of_documents": 235,
+            "nr_of_fields": 183,
+            "owners": "not set"
+        },
+        {
+            "col_name": "schnitzler-briefe",
+            "nr_of_documents": 4356,
+            "nr_of_fields": 29,
+            "owners": "not set"
+        },
+        {
+            "col_name": "stb",
+            "nr_of_documents": 16423,
+            "nr_of_fields": 8,
+            "owners": "not set"
+        },
+        {
+            "col_name": "schnitzler-chronik",
+            "nr_of_documents": 66573,
+            "nr_of_fields": 5,
+            "owners": "not set"
+        },
+        {
+            "col_name": "hiob",
+            "nr_of_documents": 620,
+            "nr_of_fields": 16,
+            "owners": "not set"
+        },
+        {
+            "col_name": "bundes_verfassung_oesterreich",
+            "nr_of_documents": 5947,
+            "nr_of_fields": 16,
+            "owners": "not set"
+        },
+        {
+            "col_name": "dieinsel_index_articles",
+            "nr_of_documents": 747,
+            "nr_of_fields": 34,
+            "owners": "not set"
+        },
+        {
+            "col_name": "dieinsel_index_uebersicht",
+            "nr_of_documents": 34,
+            "nr_of_fields": 15,
+            "owners": "not set"
+        },
+        {
+            "col_name": "aad",
+            "nr_of_documents": 467,
+            "nr_of_fields": 19,
+            "owners": "not set"
+        },
+        {
+            "col_name": "the-knowledge-base-website",
+            "nr_of_documents": 0,
+            "nr_of_fields": 8,
+            "owners": "not set"
+        },
+        {
+            "col_name": "the-knowledge-base-resources",
+            "nr_of_documents": 0,
+            "nr_of_fields": 17,
+            "owners": "not set"
+        },
+        {
+            "col_name": "schubert_ci",
+            "nr_of_documents": 191,
+            "nr_of_fields": 58,
+            "owners": "not set"
+        },
+        {
+            "col_name": "schubert_ci_schnellsuche",
+            "nr_of_documents": 2987,
+            "nr_of_fields": 9,
+            "owners": "not set"
+        },
+        {
+            "col_name": "nbr-pius-xi",
+            "nr_of_documents": 74,
+            "nr_of_fields": 6,
+            "owners": "not set"
+        },
+        {
+            "col_name": "schubert_ci_works",
+            "nr_of_documents": 1097,
+            "nr_of_fields": 11,
+            "owners": "not set"
+        },
+        {
+            "col_name": "dariah-website",
+            "nr_of_documents": 3017,
+            "nr_of_fields": 8,
+            "owners": "stefan.probst@oeaw.ac.at"
+        },
+        {
+            "col_name": "dariah-resources",
+            "nr_of_documents": 1114,
+            "nr_of_fields": 17,
+            "owners": "stefan.probst@oeaw.ac.at"
+        },
+        {
+            "col_name": "oeml-search",
+            "nr_of_documents": 9788,
+            "nr_of_fields": 22,
+            "owners": "not set"
+        },
+        {
+            "col_name": "walpurgisnacht",
+            "nr_of_documents": 65,
+            "nr_of_fields": 7,
+            "owners": "not set"
+        },
+        {
+            "col_name": "hbtv",
+            "nr_of_documents": 6780,
+            "nr_of_fields": 8,
+            "owners": "not set"
+        },
+        {
+            "col_name": "hsl",
+            "nr_of_documents": 7885,
+            "nr_of_fields": 9,
+            "owners": "not set"
+        },
+        {
+            "col_name": "Schnitzler-Mikrofilme",
+            "nr_of_documents": 44326,
+            "nr_of_fields": 5,
+            "owners": "not set"
+        },
+        {
+            "col_name": "brahms",
+            "nr_of_documents": 2077,
+            "nr_of_fields": 17,
+            "owners": "not set"
+        },
+        {
+            "col_name": "bahr-static",
+            "nr_of_documents": 1367,
+            "nr_of_fields": 8,
+            "owners": "not set"
+        },
+        {
+            "col_name": "schnitzler-interviews",
+            "nr_of_documents": 182,
+            "nr_of_fields": 18,
+            "owners": "not set"
+        },
+        {
+            "col_name": "OKAR",
+            "nr_of_documents": 61110,
+            "nr_of_fields": 15,
+            "owners": "not set"
+        },
+        {
+            "col_name": "mahler-letters",
+            "nr_of_documents": 2636,
+            "nr_of_fields": 14,
+            "owners": "not set"
+        },
+        {
+            "col_name": "mahler-discography",
+            "nr_of_documents": 543,
+            "nr_of_fields": 16,
+            "owners": "not set"
+        },
+        {
+            "col_name": "mahler-performances",
+            "nr_of_documents": 938,
+            "nr_of_fields": 16,
+            "owners": "not set"
+        },
+        {
+            "col_name": "mahler-wv",
+            "nr_of_documents": 58,
+            "nr_of_fields": 10,
+            "owners": "not set"
+        },
+        {
+            "col_name": "flugblaetter_todesurteile",
+            "nr_of_documents": 111,
+            "nr_of_fields": 21,
+            "owners": "not set"
+        },
+        {
+            "col_name": "viecpro_v3_institution_detail",
+            "nr_of_documents": 1548,
+            "nr_of_fields": 17,
+            "owners": "matthias.schloegl@oeaw.ac.at"
+        },
+        {
+            "col_name": "viecpro_v3_institution",
+            "nr_of_documents": 1548,
+            "nr_of_fields": 10,
+            "owners": "matthias.schloegl@oeaw.ac.at"
+        },
+        {
+            "col_name": "viecpro_v3_place_detail",
+            "nr_of_documents": 2817,
+            "nr_of_fields": 17,
+            "owners": "matthias.schloegl@oeaw.ac.at"
+        },
+        {
+            "col_name": "viecpro_v3_place",
+            "nr_of_documents": 2817,
+            "nr_of_fields": 8,
+            "owners": "matthias.schloegl@oeaw.ac.at"
+        },
+        {
+            "col_name": "viecpro_v3_person_detail",
+            "nr_of_documents": 25766,
+            "nr_of_fields": 34,
+            "owners": "matthias.schloegl@oeaw.ac.at"
+        },
+        {
+            "col_name": "viecpro_v3_person",
+            "nr_of_documents": 25766,
+            "nr_of_fields": 11,
+            "owners": "matthias.schloegl@oeaw.ac.at"
+        },
+        {
+            "col_name": "flugblaetter_todesurteile_persons",
+            "nr_of_documents": 126,
+            "nr_of_fields": 20,
+            "owners": "not set"
+        },
+        {
+            "col_name": "baedeker",
+            "nr_of_documents": 3017,
+            "nr_of_fields": 10,
+            "owners": "not set"
+        },
+        {
+            "col_name": "wiener-rundschau-static",
+            "nr_of_documents": 3482,
+            "nr_of_fields": 12,
+            "owners": "not set"
+        },
+        {
+            "col_name": "pollaczek",
+            "nr_of_documents": 990,
+            "nr_of_fields": 4,
+            "owners": "not set"
+        },
+        {
+            "col_name": "gtrans",
+            "nr_of_documents": 939,
+            "nr_of_fields": 16,
+            "owners": "not set"
+        },
+        {
+            "col_name": "hbtv-v3",
+            "nr_of_documents": 6780,
+            "nr_of_fields": 14,
+            "owners": "not set"
+        },
+        {
+            "col_name": "hbtv-v2",
+            "nr_of_documents": 6780,
+            "nr_of_fields": 14,
+            "owners": "not set"
+        },
+        {
+            "col_name": "jpbriefe",
+            "nr_of_documents": 5526,
+            "nr_of_fields": 15,
+            "owners": "not set"
         },
         {
             "col_name": "daacda",
             "nr_of_documents": 8124,
-            "nr_of_fields": 17
+            "nr_of_fields": 17,
+            "owners": "not set"
         },
         {
             "col_name": "thun-static",
             "nr_of_documents": 865,
-            "nr_of_fields": 9
+            "nr_of_fields": 9,
+            "owners": "not set"
         },
         {
             "col_name": "clariah-at-platform",
             "nr_of_documents": 155,
-            "nr_of_fields": 10
+            "nr_of_fields": 10,
+            "owners": "not set"
         },
         {
             "col_name": "brenner",
             "nr_of_documents": 7945,
-            "nr_of_fields": 12
+            "nr_of_fields": 12,
+            "owners": "not set"
         },
         {
             "col_name": "parlamint",
             "nr_of_documents": 1221,
-            "nr_of_fields": 7
+            "nr_of_fields": 7,
+            "owners": "not set"
         },
         {
             "col_name": "bruckner-bibliographie",
             "nr_of_documents": 9847,
-            "nr_of_fields": 3
+            "nr_of_fields": 3,
+            "owners": "not set"
         },
         {
             "col_name": "dhq-search",
             "nr_of_documents": 616,
-            "nr_of_fields": 7
+            "nr_of_fields": 7,
+            "owners": "not set"
         },
         {
             "col_name": "dhd-abstracts",
             "nr_of_documents": 1180,
-            "nr_of_fields": 9
+            "nr_of_fields": 9,
+            "owners": "not set"
         },
         {
             "col_name": "nbr-graz",
             "nr_of_documents": 2041,
-            "nr_of_fields": 7
+            "nr_of_fields": 7,
+            "owners": "not set"
         },
         {
             "col_name": "wkfm",
             "nr_of_documents": 1945,
-            "nr_of_fields": 4
+            "nr_of_fields": 4,
+            "owners": "not set"
         },
         {
             "col_name": "viecpro_v3_court",
             "nr_of_documents": 218,
-            "nr_of_fields": 10
+            "nr_of_fields": 10,
+            "owners": "matthias.schloegl@oeaw.ac.at"
         },
         {
             "col_name": "viecpro_v3_court_detail",
             "nr_of_documents": 218,
-            "nr_of_fields": 18
-        },
-        {
-            "col_name": "ofm_graz",
-            "nr_of_documents": 51654,
-            "nr_of_fields": 14
-        },
-        {
-            "col_name": "viecpro_v2_courts",
-            "nr_of_documents": 193,
-            "nr_of_fields": 28
-        },
-        {
-            "col_name": "viecpro_v2_references",
-            "nr_of_documents": 240340,
-            "nr_of_fields": 13
-        },
-        {
-            "col_name": "viecpro_v2_places",
-            "nr_of_documents": 2713,
-            "nr_of_fields": 22
-        },
-        {
-            "col_name": "viecpro_v2_persons",
-            "nr_of_documents": 25804,
-            "nr_of_fields": 28
-        },
-        {
-            "col_name": "viecpro_v2_institutions",
-            "nr_of_documents": 1321,
-            "nr_of_fields": 20
-        },
-        {
-            "col_name": "viecpro_v2_events",
-            "nr_of_documents": 16,
-            "nr_of_fields": 20
-        },
-        {
-            "col_name": "viecpro_v2_detail_place",
-            "nr_of_documents": 2713,
-            "nr_of_fields": 10
-        },
-        {
-            "col_name": "viecpro_v2_detail_institution",
-            "nr_of_documents": 1321,
-            "nr_of_fields": 11
-        },
-        {
-            "col_name": "viecpro_v2_detail_source",
-            "nr_of_documents": 0,
-            "nr_of_fields": 7
-        },
-        {
-            "col_name": "viecpro_v2_detail_court",
-            "nr_of_documents": 218,
-            "nr_of_fields": 13
-        },
-        {
-            "col_name": "viecpro_v2_detail_person",
-            "nr_of_documents": 42231,
-            "nr_of_fields": 27
+            "nr_of_fields": 18,
+            "owners": "matthias.schloegl@oeaw.ac.at"
         },
         {
             "col_name": "pez-nachlass",
             "nr_of_documents": 794,
-            "nr_of_fields": 14
+            "nr_of_fields": 14,
+            "owners": "not set"
         },
         {
             "col_name": "bruckner-dwab",
             "nr_of_documents": 275,
-            "nr_of_fields": 13
+            "nr_of_fields": 13,
+            "owners": "not set"
         },
         {
             "col_name": "gestrich_index",
             "nr_of_documents": 1144,
-            "nr_of_fields": 22
+            "nr_of_fields": 22,
+            "owners": "not set"
         },
         {
             "col_name": "amp",
             "nr_of_documents": 222,
-            "nr_of_fields": 18
+            "nr_of_fields": 18,
+            "owners": "not set"
         },
         {
             "col_name": "grundbuecher",
             "nr_of_documents": 1999,
-            "nr_of_fields": 4
+            "nr_of_fields": 4,
+            "owners": "not set"
         },
         {
             "col_name": "thomas-bernhard",
             "nr_of_documents": 1069,
-            "nr_of_fields": 15
-        },
-        {
-            "col_name": "JAD",
-            "nr_of_documents": 136,
-            "nr_of_fields": 75
+            "nr_of_fields": 15,
+            "owners": "not set"
         },
         {
             "col_name": "maechtekongresse",
             "nr_of_documents": 113,
-            "nr_of_fields": 13
-        },
-        {
-            "col_name": "viecpro_detail_place",
-            "nr_of_documents": 2669,
-            "nr_of_fields": 7
-        },
-        {
-            "col_name": "viecpro_detail_institution",
-            "nr_of_documents": 1304,
-            "nr_of_fields": 10
-        },
-        {
-            "col_name": "viecpro_detail_source",
-            "nr_of_documents": 0,
-            "nr_of_fields": 7
-        },
-        {
-            "col_name": "viecpro_detail_court",
-            "nr_of_documents": 218,
-            "nr_of_fields": 11
-        },
-        {
-            "col_name": "viecpro_detail_person",
-            "nr_of_documents": 41604,
-            "nr_of_fields": 23
-        },
-        {
-            "col_name": "viecpro_courts",
-            "nr_of_documents": 218,
-            "nr_of_fields": 31
-        },
-        {
-            "col_name": "viecpro_relations",
-            "nr_of_documents": 95949,
-            "nr_of_fields": 22
-        },
-        {
-            "col_name": "viecpro_references",
-            "nr_of_documents": 199603,
-            "nr_of_fields": 13
-        },
-        {
-            "col_name": "viecpro_places",
-            "nr_of_documents": 1993,
-            "nr_of_fields": 22
-        },
-        {
-            "col_name": "viecpro_persons",
-            "nr_of_documents": 25178,
-            "nr_of_fields": 28
-        },
-        {
-            "col_name": "viecpro_institutions",
-            "nr_of_documents": 1304,
-            "nr_of_fields": 20
-        },
-        {
-            "col_name": "viecpro_events",
-            "nr_of_documents": 16,
-            "nr_of_fields": 20
+            "nr_of_fields": 13,
+            "owners": "not set"
         },
         {
             "col_name": "Schnitzler-Zeitungen",
             "nr_of_documents": 22571,
-            "nr_of_fields": 4
+            "nr_of_fields": 4,
+            "owners": "not set"
         },
         {
             "col_name": "teaching-paradimes",
             "nr_of_documents": 16075,
-            "nr_of_fields": 40
+            "nr_of_fields": 40,
+            "owners": "not set"
         },
         {
             "col_name": "prosnet-wikidata-organization-index",
             "nr_of_documents": 5531,
-            "nr_of_fields": 5
+            "nr_of_fields": 5,
+            "owners": "not set"
         },
         {
             "col_name": "prosnet-geonames-place-index",
             "nr_of_documents": 170352,
-            "nr_of_fields": 5
+            "nr_of_fields": 5,
+            "owners": "not set"
         },
         {
             "col_name": "prosnet-wikidata-place-index",
             "nr_of_documents": 83258,
-            "nr_of_fields": 5
+            "nr_of_fields": 5,
+            "owners": "not set"
         },
         {
             "col_name": "prosnet-wikidata-person-index",
             "nr_of_documents": 21294,
-            "nr_of_fields": 7
+            "nr_of_fields": 7,
+            "owners": "not set"
         },
         {
             "col_name": "oeml-play",
             "nr_of_documents": 4,
-            "nr_of_fields": 10
+            "nr_of_fields": 10,
+            "owners": "not set"
         },
         {
             "col_name": "schubert",
             "nr_of_documents": 91,
-            "nr_of_fields": 54
+            "nr_of_fields": 54,
+            "owners": "not set"
         },
         {
             "col_name": "freud-edition",
             "nr_of_documents": 5641,
-            "nr_of_fields": 6
+            "nr_of_fields": 6,
+            "owners": "not set"
         },
         {
             "col_name": "rita",
             "nr_of_documents": 64,
-            "nr_of_fields": 6
+            "nr_of_fields": 6,
+            "owners": "not set"
         },
         {
             "col_name": "mahler",
             "nr_of_documents": 58,
-            "nr_of_fields": 6
+            "nr_of_fields": 6,
+            "owners": "not set"
         },
         {
             "col_name": "schnitzler-kino",
             "nr_of_documents": 821,
-            "nr_of_fields": 4
+            "nr_of_fields": 4,
+            "owners": "not set"
         },
         {
             "col_name": "fackel-texte",
             "nr_of_documents": 12371,
-            "nr_of_fields": 6
+            "nr_of_fields": 6,
+            "owners": "not set"
         },
         {
             "col_name": "abcd-db",
             "nr_of_documents": 21968,
-            "nr_of_fields": 12
+            "nr_of_fields": 12,
+            "owners": "not set"
         },
         {
             "col_name": "staribacher",
             "nr_of_documents": 3154,
-            "nr_of_fields": 6
+            "nr_of_fields": 6,
+            "owners": "not set"
         },
         {
             "col_name": "cfts",
             "nr_of_documents": 292868,
-            "nr_of_fields": 12
+            "nr_of_fields": 12,
+            "owners": "not set"
         },
         {
             "col_name": "digitarium",
             "nr_of_documents": 334,
-            "nr_of_fields": 5
+            "nr_of_fields": 5,
+            "owners": "not set"
         }
     ]
 }

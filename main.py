@@ -30,6 +30,20 @@ def _headers() -> dict[str, str]:
 	}
 
 
+def _format_owners(metadata: Any) -> str:
+	if not isinstance(metadata, dict):
+		return "not set"
+
+	owners = metadata.get("owners")
+	if isinstance(owners, list):
+		owner_values = [str(owner).strip() for owner in owners if str(owner).strip()]
+		return ", ".join(owner_values) if owner_values else "not set"
+	if isinstance(owners, str) and owners.strip():
+		return owners.strip()
+
+	return "not set"
+
+
 def _get_collections(base_url: str, timeout: float) -> list[dict[str, Any]]:
 	response = requests.get(
 		f"{base_url}/collections",
@@ -56,6 +70,7 @@ def build_stats() -> dict[str, Any]:
 		num_documents = int(collection.get("num_documents", 0) or 0)
 		fields = collection.get("fields", [])
 		nr_of_fields = len(fields) if isinstance(fields, list) else 0
+		owners = _format_owners(collection.get("metadata"))
 
 		total_documents += num_documents
 		collection_stats.append(
@@ -63,6 +78,7 @@ def build_stats() -> dict[str, Any]:
 				"col_name": name,
 				"nr_of_documents": num_documents,
 				"nr_of_fields": nr_of_fields,
+				"owners": owners,
 			}
 		)
 
@@ -82,13 +98,14 @@ def write_csv(stats: dict[str, Any]) -> None:
 
 	with open("stats.csv", "w", encoding="utf-8", newline="") as f:
 		writer = csv.writer(f)
-		writer.writerow(["col_name", "nr_of_documents", "nr_of_fileds"])
+		writer.writerow(["col_name", "nr_of_documents", "nr_of_fields", "owners"])
 		for item in ordered_collections:
 			writer.writerow(
 				[
 					item.get("col_name", ""),
 					item.get("nr_of_documents", 0),
 					item.get("nr_of_fields", 0),
+					item.get("owners", "not set"),
 				]
 			)
 
