@@ -1,8 +1,16 @@
 {
-    "nr_of_collections": 98,
-    "with_metadata": 55,
-    "nr_of_documents": 1048656,
+    "nr_of_collections": 99,
+    "with_metadata": 56,
+    "nr_of_documents": 1048667,
     "collections": [
+        {
+            "col_name": "leopold-briefe-static",
+            "nr_of_documents": 11,
+            "nr_of_fields": 4,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/leopold-briefe/leopold-briefe-static",
+            "service_ids": "28144"
+        },
         {
             "col_name": "nbr-pius-xi",
             "nr_of_documents": 74,
