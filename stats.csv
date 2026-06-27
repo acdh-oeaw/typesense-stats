@@ -1,5 +1,5 @@
 col_name,nr_of_documents,nr_of_fields,owners,description,service_ids
-cfts,292868,12,not set,not set,not set
+cfts,292878,12,not set,not set,not set
 prosnet-geonames-place-index,170352,5,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
 prosnet-wikidata-place-index,83258,5,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
 schnitzler-chronik,66573,5,"Peter Andorfer, Martin Anton Müller",https://github.com/arthur-schnitzler/schnitzler-chronik-static,21628
@@ -23,7 +23,7 @@ bundes_verfassung_oesterreich,5947,16,"Peter Andorfer, Carl Friedrich Haak","Ind
 freud-edition,5641,6,not set,not set,not set
 prosnet-wikidata-organization-index,5531,5,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
 STB,4895,8,"Peter Andorfer, Carl Friedrich Haak, Michaela Rausch-Supola, Fernando Sanz-Lázaro",Used for Register of https://staribacher.acdh.oeaw.ac.at/,23089
-schnitzler-briefe,4356,29,"Peter Andorfer, Martin Anton Müller",https://github.com/arthur-schnitzler/schnitzler-briefe-static,21741
+schnitzler-briefe,4366,29,"Peter Andorfer, Martin Anton Müller",https://github.com/arthur-schnitzler/schnitzler-briefe-static,21741
 mrp-static,4350,13,"Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static,28624
 legalkraus,4002,34,"Peter Andorfer, Barbara Krautgartner",https://github.com/karl-kraus/legalkraus-static/,22730
 wiener-rundschau-static,3482,12,Peter Andorfer,https://github.com/acdh-oeaw/wiener-rundschau-static,26179
@@ -40,7 +40,7 @@ nbr-graz,2041,7,not set,not set,not set
 grundbuecher,1999,4,Peter Andorfer,https://github.com/KONDE-AT/grundbuecher-static,12131
 wkfm,1945,4,Peter Andorfer,https://github.com/donauhandel/wkfm-static,20289
 akademie-static,1728,9,"Peter Andorfer, Kinga Sramó",https://github.com/acdh-oeaw/akademie-static,18716
-emt,1599,22,"Peter Andorfer, Kinga Sramó",https://github.com/emt-project/emt-static,21311
+emt,1599,22,not set,not set,not set
 viecpro_v3_institution_detail,1548,17,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 viecpro_v3_institution,1548,10,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 bahr-static,1367,8,not set,not set,not set
@@ -55,7 +55,7 @@ thomas-bernhard,1069,15,not set,not set,not set
 pollaczek,990,4,not set,not set,not set
 gtrans,939,16,Peter Andorfer,https://github.com/acdh-oeaw/gtrans-static,10758
 mahler-performances,938,16,not set,not set,not set
-thun-static,865,9,not set,not set,not set
+thun-static,865,9,Peter Andorfer,https://github.com/KfNGOe/thun-static,18716
 schnitzler-kino,821,4,not set,not set,not set
 pez-nachlass,794,14,not set,not set,not set
 kb-static,750,11,"Peter Andorfer, Bernhard Oberreither",https://github.com/karl-kraus/kb-static,26461
@@ -64,13 +64,13 @@ tillich-lectures,660,11,"Peter Andorfer, Thomas Klampfl",https://github.com/Till
 hiob,620,16,not set,not set,not set
 dhq-search,616,7,not set,not set,not set
 mahler-discography,543,16,not set,not set,not set
-letters1916-static,478,19,Peter Andorfer,https://github.com/letters1916static/letters1916-static,28621
+letters1916-static,478,21,Peter Andorfer,https://github.com/letters1916static/letters1916-static,28621
 aad,467,19,not set,not set,not set
 walpurgisnacht_umschrift,388,8,not set,not set,not set
 dig-ed-cat,358,65,Peter Andorfer,https://github.com/dig-Eds-cat/dig-ed-cat-static,5976
 kalbeck-tagebuch-static,341,16,"Peter Andorfer, Fernando Sanz-Lázaro",'Max Kalbeck Tagebuch' (https://github.com/max-kalbeck/kalbeck-tagebuch-static),26167
 digitarium,334,5,not set,not set,not set
-dariah-campus,291,8,stefan.probst@oeaw.ac.at,DARIAH-Campus,16225
+dariah-campus,292,8,not set,not set,not set
 bruckner-dwab,275,13,not set,not set,not set
 hit__msitems,235,183,Ivana Dobcheva,"index for the HIT project, indexing all msitems",23143
 schubert_dev,228,58,@peterpro,sources data for schubert staging,22517

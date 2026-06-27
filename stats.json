@@ -1,8 +1,56 @@
 {
     "nr_of_collections": 98,
-    "with_metadata": 52,
-    "nr_of_documents": 1048635,
+    "with_metadata": 51,
+    "nr_of_documents": 1048656,
     "collections": [
+        {
+            "col_name": "thun-static",
+            "nr_of_documents": 865,
+            "nr_of_fields": 9,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/KfNGOe/thun-static",
+            "service_ids": "18716"
+        },
+        {
+            "col_name": "emt",
+            "nr_of_documents": 1599,
+            "nr_of_fields": 22,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "tillich-briefe",
+            "nr_of_documents": 1325,
+            "nr_of_fields": 20,
+            "owners": "Peter Andorfer, Thomas Klampfl",
+            "description": "https://github.com/TillichCorrespondence/tillich-briefe-static",
+            "service_ids": "22113"
+        },
+        {
+            "col_name": "tillich-lectures",
+            "nr_of_documents": 660,
+            "nr_of_fields": 11,
+            "owners": "Peter Andorfer, Thomas Klampfl",
+            "description": "https://github.com/TillichCorrespondence/tillich-lectures-static",
+            "service_ids": "23501"
+        },
+        {
+            "col_name": "kalbeck-tagebuch-static",
+            "nr_of_documents": 341,
+            "nr_of_fields": 16,
+            "owners": "Peter Andorfer, Fernando Sanz-Lázaro",
+            "description": "'Max Kalbeck Tagebuch' (https://github.com/max-kalbeck/kalbeck-tagebuch-static)",
+            "service_ids": "26167"
+        },
+        {
+            "col_name": "akademie-static",
+            "nr_of_documents": 1728,
+            "nr_of_fields": 9,
+            "owners": "Peter Andorfer, Kinga Sramó",
+            "description": "https://github.com/acdh-oeaw/akademie-static",
+            "service_ids": "18716"
+        },
         {
             "col_name": "schubert_dev",
             "nr_of_documents": 228,
@@ -26,6 +74,54 @@
             "owners": "@peterpro",
             "description": "schnellsuche data for schubert staging",
             "service_ids": "22517"
+        },
+        {
+            "col_name": "letters1916-static",
+            "nr_of_documents": 478,
+            "nr_of_fields": 21,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/letters1916static/letters1916-static",
+            "service_ids": "28621"
+        },
+        {
+            "col_name": "oeml-search-local",
+            "nr_of_documents": 9774,
+            "nr_of_fields": 10,
+            "owners": "@peterpro",
+            "description": "search data for oeml-static",
+            "service_ids": "23145"
+        },
+        {
+            "col_name": "schnitzler-briefe",
+            "nr_of_documents": 4366,
+            "nr_of_fields": 29,
+            "owners": "Peter Andorfer, Martin Anton Müller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-briefe-static",
+            "service_ids": "21741"
+        },
+        {
+            "col_name": "JAD-temp",
+            "nr_of_documents": 2319,
+            "nr_of_fields": 60,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the JAD project, indexing all passages",
+            "service_ids": "23082"
+        },
+        {
+            "col_name": "mrp-static",
+            "nr_of_documents": 4350,
+            "nr_of_fields": 13,
+            "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
+            "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
+            "service_ids": "28624"
+        },
+        {
+            "col_name": "dariah-campus",
+            "nr_of_documents": 292,
+            "nr_of_fields": 8,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
         },
         {
             "col_name": "dhd-abstracts",
@@ -68,14 +164,6 @@
             "service_ids": "12131"
         },
         {
-            "col_name": "emt",
-            "nr_of_documents": 1599,
-            "nr_of_fields": 22,
-            "owners": "Peter Andorfer, Kinga Sramó",
-            "description": "https://github.com/emt-project/emt-static",
-            "service_ids": "21311"
-        },
-        {
             "col_name": "schnitzler-chronik",
             "nr_of_documents": 66573,
             "nr_of_fields": 5,
@@ -116,44 +204,12 @@
             "service_ids": "25177"
         },
         {
-            "col_name": "akademie-static",
-            "nr_of_documents": 1728,
-            "nr_of_fields": 9,
-            "owners": "Peter Andorfer, Kinga Sramó",
-            "description": "https://github.com/acdh-oeaw/akademie-static",
-            "service_ids": "18716"
-        },
-        {
             "col_name": "Schnitzler-Mikrofilme",
             "nr_of_documents": 44326,
             "nr_of_fields": 5,
             "owners": "Peter Andorfer, Martin Anton Müller",
             "description": "https://github.com/arthur-schnitzler/schnitzler-mikrofilme-static",
             "service_ids": "22703"
-        },
-        {
-            "col_name": "mrp-static",
-            "nr_of_documents": 4350,
-            "nr_of_fields": 13,
-            "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
-            "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
-            "service_ids": "28624"
-        },
-        {
-            "col_name": "tillich-briefe",
-            "nr_of_documents": 1325,
-            "nr_of_fields": 20,
-            "owners": "Peter Andorfer, Thomas Klampfl",
-            "description": "https://github.com/TillichCorrespondence/tillich-briefe-static",
-            "service_ids": "22113"
-        },
-        {
-            "col_name": "schnitzler-briefe",
-            "nr_of_documents": 4356,
-            "nr_of_fields": 29,
-            "owners": "Peter Andorfer, Martin Anton Müller",
-            "description": "https://github.com/arthur-schnitzler/schnitzler-briefe-static",
-            "service_ids": "21741"
         },
         {
             "col_name": "stb",
@@ -172,14 +228,6 @@
             "service_ids": "21741"
         },
         {
-            "col_name": "tillich-lectures",
-            "nr_of_documents": 660,
-            "nr_of_fields": 11,
-            "owners": "Peter Andorfer, Thomas Klampfl",
-            "description": "https://github.com/TillichCorrespondence/tillich-lectures-static",
-            "service_ids": "23501"
-        },
-        {
             "col_name": "baedeker",
             "nr_of_documents": 3017,
             "nr_of_fields": 10,
@@ -194,14 +242,6 @@
             "owners": "Peter Andorfer",
             "description": "https://github.com/acdh-oeaw/wiener-rundschau-static",
             "service_ids": "26179"
-        },
-        {
-            "col_name": "letters1916-static",
-            "nr_of_documents": 478,
-            "nr_of_fields": 19,
-            "owners": "Peter Andorfer",
-            "description": "https://github.com/letters1916static/letters1916-static",
-            "service_ids": "28621"
         },
         {
             "col_name": "dig-ed-cat",
@@ -228,22 +268,6 @@
             "service_ids": "26461"
         },
         {
-            "col_name": "kalbeck-tagebuch-static",
-            "nr_of_documents": 341,
-            "nr_of_fields": 16,
-            "owners": "Peter Andorfer, Fernando Sanz-Lázaro",
-            "description": "'Max Kalbeck Tagebuch' (https://github.com/max-kalbeck/kalbeck-tagebuch-static)",
-            "service_ids": "26167"
-        },
-        {
-            "col_name": "oeml-search-local",
-            "nr_of_documents": 9774,
-            "nr_of_fields": 10,
-            "owners": "@peterpro",
-            "description": "search data for oeml-static",
-            "service_ids": "23145"
-        },
-        {
             "col_name": "ofm_graz",
             "nr_of_documents": 51647,
             "nr_of_fields": 14,
@@ -258,14 +282,6 @@
             "owners": "matthias.schloegl@oeaw.ac.at",
             "description": "Testindex for Thomas Bernhard Online",
             "service_ids": "23795"
-        },
-        {
-            "col_name": "JAD-temp",
-            "nr_of_documents": 2319,
-            "nr_of_fields": 60,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the JAD project, indexing all passages",
-            "service_ids": "23082"
         },
         {
             "col_name": "armesuenderblaetter",
@@ -290,14 +306,6 @@
             "owners": "Peter Andorfer, Carl Friedrich Haak, Michaela Rausch-Supola, Fernando Sanz-Lázaro",
             "description": "Used for Register of https://staribacher.acdh.oeaw.ac.at/",
             "service_ids": "23089"
-        },
-        {
-            "col_name": "dariah-campus",
-            "nr_of_documents": 291,
-            "nr_of_fields": 8,
-            "owners": "stefan.probst@oeaw.ac.at",
-            "description": "DARIAH-Campus",
-            "service_ids": "16225"
         },
         {
             "col_name": "walpurgisnacht_umschrift",
@@ -588,14 +596,6 @@
             "service_ids": "not set"
         },
         {
-            "col_name": "thun-static",
-            "nr_of_documents": 865,
-            "nr_of_fields": 9,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
             "col_name": "clariah-at-platform",
             "nr_of_documents": 155,
             "nr_of_fields": 10,
@@ -773,7 +773,7 @@
         },
         {
             "col_name": "cfts",
-            "nr_of_documents": 292868,
+            "nr_of_documents": 292878,
             "nr_of_fields": 12,
             "owners": "not set",
             "description": "not set",
