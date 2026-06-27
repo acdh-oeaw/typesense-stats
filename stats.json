@@ -1,14 +1,30 @@
 {
     "nr_of_collections": 98,
-    "with_metadata": 53,
+    "with_metadata": 55,
     "nr_of_documents": 1048656,
     "collections": [
+        {
+            "col_name": "nbr-pius-xi",
+            "nr_of_documents": 74,
+            "nr_of_fields": 6,
+            "owners": "Peter Andorfer, Martin Kroißenbrunner",
+            "description": "https://github.com/nuntiaturberichte/nbr-pius-xi-static",
+            "service_ids": "24835"
+        },
+        {
+            "col_name": "nbr-graz",
+            "nr_of_documents": 2041,
+            "nr_of_fields": 7,
+            "owners": "Peter Andorfer, Martin Kroißenbrunner",
+            "description": "https://github.com/nuntiaturberichte/nbr-graz-static",
+            "service_ids": "13585"
+        },
         {
             "col_name": "maechtekongresse",
             "nr_of_documents": 113,
             "nr_of_fields": 13,
             "owners": "Peter Andorfer, Stephan Kurz",
-            "description": "https://github.com/KONDE-AT/grundbuecher-static",
+            "description": "https://github.com/KONDE-AT/maechtekongresse-static",
             "service_ids": "10920"
         },
         {
@@ -396,14 +412,6 @@
             "service_ids": "not set"
         },
         {
-            "col_name": "nbr-pius-xi",
-            "nr_of_documents": 74,
-            "nr_of_fields": 6,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
             "col_name": "schubert_ci_works",
             "nr_of_documents": 1097,
             "nr_of_fields": 11,
@@ -630,14 +638,6 @@
         {
             "col_name": "dhq-search",
             "nr_of_documents": 616,
-            "nr_of_fields": 7,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "nbr-graz",
-            "nr_of_documents": 2041,
             "nr_of_fields": 7,
             "owners": "not set",
             "description": "not set",

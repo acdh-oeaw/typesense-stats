@@ -36,7 +36,7 @@ viecpro_v3_place,2817,8,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.ac
 mahler-letters,2636,14,not set,not set,not set
 JAD-temp,2319,60,Ivana Dobcheva,"index for the JAD project, indexing all passages",23082
 brahms,2077,17,not set,not set,not set
-nbr-graz,2041,7,not set,not set,not set
+nbr-graz,2041,7,"Peter Andorfer, Martin Kroißenbrunner",https://github.com/nuntiaturberichte/nbr-graz-static,13585
 grundbuecher,1999,4,Peter Andorfer,https://github.com/KONDE-AT/grundbuecher-static,12131
 wkfm,1945,4,Peter Andorfer,https://github.com/donauhandel/wkfm-static,20289
 akademie-static,1728,9,"Peter Andorfer, Kinga Sramó",https://github.com/acdh-oeaw/akademie-static,18716
@@ -83,10 +83,10 @@ schnitzler-interviews,182,18,"Peter Andorfer, Martin Anton Müller",https://gith
 clariah-at-platform,155,10,Barbara Krautgartner,CLARIAH-AT platform,23817
 flugblaetter_todesurteile_persons,126,20,not set,not set,not set
 armesuenderblaetter,120,22,"Daniel Elsner, Fernando Sanz-Lazaro, LP",Used for Übersicht of https://armesuenderblaetter.acdh-cluster-2.arz.oeaw.ac.at/,22954
-maechtekongresse,113,13,"Peter Andorfer, Stephan Kurz",https://github.com/KONDE-AT/grundbuecher-static,10920
+maechtekongresse,113,13,"Peter Andorfer, Stephan Kurz",https://github.com/KONDE-AT/maechtekongresse-static,10920
 flugblaetter_todesurteile,111,21,not set,not set,not set
 schubert,91,54,not set,not set,not set
-nbr-pius-xi,74,6,not set,not set,not set
+nbr-pius-xi,74,6,"Peter Andorfer, Martin Kroißenbrunner",https://github.com/nuntiaturberichte/nbr-pius-xi-static,24835
 walpurgisnacht,65,7,not set,not set,not set
 rita,64,6,Peter Andorfer,https://github.com/acdh-oeaw/daacda-static,6930
 mahler-wv,58,10,not set,not set,not set
