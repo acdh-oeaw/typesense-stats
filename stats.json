@@ -1,8 +1,32 @@
 {
     "nr_of_collections": 98,
-    "with_metadata": 51,
+    "with_metadata": 53,
     "nr_of_documents": 1048656,
     "collections": [
+        {
+            "col_name": "maechtekongresse",
+            "nr_of_documents": 113,
+            "nr_of_fields": 13,
+            "owners": "Peter Andorfer, Stephan Kurz",
+            "description": "https://github.com/KONDE-AT/grundbuecher-static",
+            "service_ids": "10920"
+        },
+        {
+            "col_name": "JAD-temp",
+            "nr_of_documents": 2319,
+            "nr_of_fields": 60,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the JAD project, indexing all passages",
+            "service_ids": "23082"
+        },
+        {
+            "col_name": "mrp-static",
+            "nr_of_documents": 4350,
+            "nr_of_fields": 13,
+            "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
+            "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
+            "service_ids": "28624"
+        },
         {
             "col_name": "thun-static",
             "nr_of_documents": 865,
@@ -12,12 +36,28 @@
             "service_ids": "18716"
         },
         {
+            "col_name": "hit__strata",
+            "nr_of_documents": 54,
+            "nr_of_fields": 54,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the HIT project, indexing all strata",
+            "service_ids": "23143"
+        },
+        {
+            "col_name": "hit__msitems",
+            "nr_of_documents": 235,
+            "nr_of_fields": 183,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the HIT project, indexing all msitems",
+            "service_ids": "23143"
+        },
+        {
             "col_name": "emt",
             "nr_of_documents": 1599,
             "nr_of_fields": 22,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "Peter Andorfer, Kinga Sramó",
+            "description": "https://github.com/emt-project/emt-static",
+            "service_ids": "21311"
         },
         {
             "col_name": "tillich-briefe",
@@ -100,22 +140,6 @@
             "service_ids": "21741"
         },
         {
-            "col_name": "JAD-temp",
-            "nr_of_documents": 2319,
-            "nr_of_fields": 60,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the JAD project, indexing all passages",
-            "service_ids": "23082"
-        },
-        {
-            "col_name": "mrp-static",
-            "nr_of_documents": 4350,
-            "nr_of_fields": 13,
-            "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
-            "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
-            "service_ids": "28624"
-        },
-        {
             "col_name": "dariah-campus",
             "nr_of_documents": 292,
             "nr_of_fields": 8,
@@ -138,22 +162,6 @@
             "owners": "Peter Andorfer",
             "description": "https://github.com/acdh-oeaw/gtrans-static",
             "service_ids": "10758"
-        },
-        {
-            "col_name": "hit__strata",
-            "nr_of_documents": 54,
-            "nr_of_fields": 54,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the HIT project, indexing all strata",
-            "service_ids": "23143"
-        },
-        {
-            "col_name": "hit__msitems",
-            "nr_of_documents": 235,
-            "nr_of_fields": 183,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the HIT project, indexing all msitems",
-            "service_ids": "23143"
         },
         {
             "col_name": "grundbuecher",
@@ -687,14 +695,6 @@
             "col_name": "thomas-bernhard",
             "nr_of_documents": 1069,
             "nr_of_fields": 15,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "maechtekongresse",
-            "nr_of_documents": 113,
-            "nr_of_fields": 13,
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"

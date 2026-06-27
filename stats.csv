@@ -40,7 +40,7 @@ nbr-graz,2041,7,not set,not set,not set
 grundbuecher,1999,4,Peter Andorfer,https://github.com/KONDE-AT/grundbuecher-static,12131
 wkfm,1945,4,Peter Andorfer,https://github.com/donauhandel/wkfm-static,20289
 akademie-static,1728,9,"Peter Andorfer, Kinga Sramó",https://github.com/acdh-oeaw/akademie-static,18716
-emt,1599,22,not set,not set,not set
+emt,1599,22,"Peter Andorfer, Kinga Sramó",https://github.com/emt-project/emt-static,21311
 viecpro_v3_institution_detail,1548,17,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 viecpro_v3_institution,1548,10,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 bahr-static,1367,8,not set,not set,not set
@@ -83,7 +83,7 @@ schnitzler-interviews,182,18,"Peter Andorfer, Martin Anton Müller",https://gith
 clariah-at-platform,155,10,Barbara Krautgartner,CLARIAH-AT platform,23817
 flugblaetter_todesurteile_persons,126,20,not set,not set,not set
 armesuenderblaetter,120,22,"Daniel Elsner, Fernando Sanz-Lazaro, LP",Used for Übersicht of https://armesuenderblaetter.acdh-cluster-2.arz.oeaw.ac.at/,22954
-maechtekongresse,113,13,not set,not set,not set
+maechtekongresse,113,13,"Peter Andorfer, Stephan Kurz",https://github.com/KONDE-AT/grundbuecher-static,10920
 flugblaetter_todesurteile,111,21,not set,not set,not set
 schubert,91,54,not set,not set,not set
 nbr-pius-xi,74,6,not set,not set,not set
