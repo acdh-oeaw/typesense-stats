@@ -1,39 +1,15 @@
 {
     "nr_of_collections": 99,
     "with_metadata": 56,
-    "nr_of_documents": 1048667,
+    "nr_of_documents": 755789,
     "collections": [
         {
-            "col_name": "leopold-briefe-static",
-            "nr_of_documents": 11,
-            "nr_of_fields": 4,
+            "col_name": "cfts",
+            "nr_of_documents": 0,
+            "nr_of_fields": 12,
             "owners": "Peter Andorfer",
-            "description": "https://github.com/leopold-briefe/leopold-briefe-static",
-            "service_ids": "28144"
-        },
-        {
-            "col_name": "nbr-pius-xi",
-            "nr_of_documents": 74,
-            "nr_of_fields": 6,
-            "owners": "Peter Andorfer, Martin Kroißenbrunner",
-            "description": "https://github.com/nuntiaturberichte/nbr-pius-xi-static",
-            "service_ids": "24835"
-        },
-        {
-            "col_name": "nbr-graz",
-            "nr_of_documents": 2041,
-            "nr_of_fields": 7,
-            "owners": "Peter Andorfer, Martin Kroißenbrunner",
-            "description": "https://github.com/nuntiaturberichte/nbr-graz-static",
-            "service_ids": "13585"
-        },
-        {
-            "col_name": "maechtekongresse",
-            "nr_of_documents": 113,
-            "nr_of_fields": 13,
-            "owners": "Peter Andorfer, Stephan Kurz",
-            "description": "https://github.com/KONDE-AT/maechtekongresse-static",
-            "service_ids": "10920"
+            "description": "Fulltext index over several projects, see https://github.com/acdh-oeaw/acdh-cfts-pyutils",
+            "service_ids": "28216"
         },
         {
             "col_name": "JAD-temp",
@@ -44,52 +20,20 @@
             "service_ids": "23082"
         },
         {
-            "col_name": "mrp-static",
-            "nr_of_documents": 4350,
-            "nr_of_fields": 13,
-            "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
-            "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
-            "service_ids": "28624"
-        },
-        {
-            "col_name": "thun-static",
-            "nr_of_documents": 865,
-            "nr_of_fields": 9,
-            "owners": "Peter Andorfer",
-            "description": "https://github.com/KfNGOe/thun-static",
-            "service_ids": "18716"
-        },
-        {
-            "col_name": "hit__strata",
-            "nr_of_documents": 54,
-            "nr_of_fields": 54,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the HIT project, indexing all strata",
-            "service_ids": "23143"
-        },
-        {
-            "col_name": "hit__msitems",
-            "nr_of_documents": 235,
-            "nr_of_fields": 183,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the HIT project, indexing all msitems",
-            "service_ids": "23143"
-        },
-        {
-            "col_name": "emt",
-            "nr_of_documents": 1599,
-            "nr_of_fields": 22,
-            "owners": "Peter Andorfer, Kinga Sramó",
-            "description": "https://github.com/emt-project/emt-static",
-            "service_ids": "21311"
-        },
-        {
             "col_name": "tillich-briefe",
             "nr_of_documents": 1325,
             "nr_of_fields": 20,
             "owners": "Peter Andorfer, Thomas Klampfl",
             "description": "https://github.com/TillichCorrespondence/tillich-briefe-static",
             "service_ids": "22113"
+        },
+        {
+            "col_name": "emt",
+            "nr_of_documents": 1599,
+            "nr_of_fields": 22,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
         },
         {
             "col_name": "tillich-lectures",
@@ -116,6 +60,78 @@
             "service_ids": "18716"
         },
         {
+            "col_name": "leopold-briefe-static",
+            "nr_of_documents": 11,
+            "nr_of_fields": 10,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/leopold-briefe/leopold-briefe-static",
+            "service_ids": "28144"
+        },
+        {
+            "col_name": "letters1916-static",
+            "nr_of_documents": 478,
+            "nr_of_fields": 21,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/letters1916static/letters1916-static",
+            "service_ids": "28621"
+        },
+        {
+            "col_name": "mrp-static",
+            "nr_of_documents": 4350,
+            "nr_of_fields": 13,
+            "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
+            "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
+            "service_ids": "28624"
+        },
+        {
+            "col_name": "hit__strata",
+            "nr_of_documents": 54,
+            "nr_of_fields": 54,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the HIT project, indexing all strata",
+            "service_ids": "23143"
+        },
+        {
+            "col_name": "hit__msitems",
+            "nr_of_documents": 235,
+            "nr_of_fields": 183,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the HIT project, indexing all msitems",
+            "service_ids": "23143"
+        },
+        {
+            "col_name": "nbr-pius-xi",
+            "nr_of_documents": 74,
+            "nr_of_fields": 6,
+            "owners": "Peter Andorfer, Martin Kroißenbrunner",
+            "description": "https://github.com/nuntiaturberichte/nbr-pius-xi-static",
+            "service_ids": "24835"
+        },
+        {
+            "col_name": "nbr-graz",
+            "nr_of_documents": 2041,
+            "nr_of_fields": 7,
+            "owners": "Peter Andorfer, Martin Kroißenbrunner",
+            "description": "https://github.com/nuntiaturberichte/nbr-graz-static",
+            "service_ids": "13585"
+        },
+        {
+            "col_name": "maechtekongresse",
+            "nr_of_documents": 113,
+            "nr_of_fields": 13,
+            "owners": "Peter Andorfer, Stephan Kurz",
+            "description": "https://github.com/KONDE-AT/maechtekongresse-static",
+            "service_ids": "10920"
+        },
+        {
+            "col_name": "thun-static",
+            "nr_of_documents": 865,
+            "nr_of_fields": 9,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/KfNGOe/thun-static",
+            "service_ids": "18716"
+        },
+        {
             "col_name": "schubert_dev",
             "nr_of_documents": 228,
             "nr_of_fields": 58,
@@ -138,14 +154,6 @@
             "owners": "@peterpro",
             "description": "schnellsuche data for schubert staging",
             "service_ids": "22517"
-        },
-        {
-            "col_name": "letters1916-static",
-            "nr_of_documents": 478,
-            "nr_of_fields": 21,
-            "owners": "Peter Andorfer",
-            "description": "https://github.com/letters1916static/letters1916-static",
-            "service_ids": "28621"
         },
         {
             "col_name": "oeml-search-local",
@@ -775,14 +783,6 @@
             "col_name": "schnitzler-kino",
             "nr_of_documents": 821,
             "nr_of_fields": 4,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "cfts",
-            "nr_of_documents": 292878,
-            "nr_of_fields": 12,
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"

@@ -1,5 +1,4 @@
 col_name,nr_of_documents,nr_of_fields,owners,description,service_ids
-cfts,292878,12,not set,not set,not set
 prosnet-geonames-place-index,170352,5,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
 prosnet-wikidata-place-index,83258,5,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
 schnitzler-chronik,66573,5,"Peter Andorfer, Martin Anton Müller",https://github.com/arthur-schnitzler/schnitzler-chronik-static,21628
@@ -40,7 +39,7 @@ nbr-graz,2041,7,"Peter Andorfer, Martin Kroißenbrunner",https://github.com/nunt
 grundbuecher,1999,4,Peter Andorfer,https://github.com/KONDE-AT/grundbuecher-static,12131
 wkfm,1945,4,Peter Andorfer,https://github.com/donauhandel/wkfm-static,20289
 akademie-static,1728,9,"Peter Andorfer, Kinga Sramó",https://github.com/acdh-oeaw/akademie-static,18716
-emt,1599,22,"Peter Andorfer, Kinga Sramó",https://github.com/emt-project/emt-static,21311
+emt,1599,22,not set,not set,not set
 viecpro_v3_institution_detail,1548,17,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 viecpro_v3_institution,1548,10,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 bahr-static,1367,8,not set,not set,not set
@@ -93,8 +92,9 @@ mahler-wv,58,10,not set,not set,not set
 mahler,58,6,not set,not set,not set
 hit__strata,54,54,Ivana Dobcheva,"index for the HIT project, indexing all strata",23143
 dieinsel_index_uebersicht,34,15,not set,not set,not set
-leopold-briefe-static,11,4,Peter Andorfer,https://github.com/leopold-briefe/leopold-briefe-static,28144
+leopold-briefe-static,11,10,Peter Andorfer,https://github.com/leopold-briefe/leopold-briefe-static,28144
 oeml-play,4,10,not set,not set,not set
 dse-static,3,16,dse-static-cookiecutter,Used by https://github.com/acdh-oeaw/dse-static,18716
+cfts,0,12,Peter Andorfer,"Fulltext index over several projects, see https://github.com/acdh-oeaw/acdh-cfts-pyutils",28216
 the-knowledge-base-website,0,8,Barbara Krautgartner,The Knowledge Base,23817
 the-knowledge-base-resources,0,17,Barbara Krautgartner,The Knowledge Base,23817
