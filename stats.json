@@ -1,8 +1,32 @@
 {
     "nr_of_collections": 100,
     "with_metadata": 58,
-    "nr_of_documents": 762705,
+    "nr_of_documents": 762682,
     "collections": [
+        {
+            "col_name": "schubert_dev",
+            "nr_of_documents": 228,
+            "nr_of_fields": 58,
+            "owners": "@peterpro",
+            "description": "sources data for schubert staging",
+            "service_ids": "22517"
+        },
+        {
+            "col_name": "schubert_dev_works",
+            "nr_of_documents": 1097,
+            "nr_of_fields": 16,
+            "owners": "@peterpro",
+            "description": "works data for schubert staging",
+            "service_ids": "22517"
+        },
+        {
+            "col_name": "schubert_dev_schnellsuche",
+            "nr_of_documents": 2962,
+            "nr_of_fields": 9,
+            "owners": "@peterpro",
+            "description": "schnellsuche data for schubert staging",
+            "service_ids": "22517"
+        },
         {
             "col_name": "LOI",
             "nr_of_documents": 293,
@@ -154,30 +178,6 @@
             "owners": "Peter Andorfer",
             "description": "https://github.com/KfNGOe/thun-static",
             "service_ids": "18716"
-        },
-        {
-            "col_name": "schubert_dev",
-            "nr_of_documents": 228,
-            "nr_of_fields": 58,
-            "owners": "@peterpro",
-            "description": "sources data for schubert staging",
-            "service_ids": "22517"
-        },
-        {
-            "col_name": "schubert_dev_works",
-            "nr_of_documents": 1097,
-            "nr_of_fields": 16,
-            "owners": "@peterpro",
-            "description": "works data for schubert staging",
-            "service_ids": "22517"
-        },
-        {
-            "col_name": "schubert_dev_schnellsuche",
-            "nr_of_documents": 2985,
-            "nr_of_fields": 9,
-            "owners": "@peterpro",
-            "description": "schnellsuche data for schubert staging",
-            "service_ids": "22517"
         },
         {
             "col_name": "oeml-search-local",
