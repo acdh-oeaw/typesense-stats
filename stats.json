@@ -1,8 +1,40 @@
 {
-    "nr_of_collections": 99,
-    "with_metadata": 56,
-    "nr_of_documents": 762412,
+    "nr_of_collections": 100,
+    "with_metadata": 58,
+    "nr_of_documents": 762705,
     "collections": [
+        {
+            "col_name": "LOI",
+            "nr_of_documents": 293,
+            "nr_of_fields": 20,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the LOI project, indexing all passages",
+            "service_ids": "28231"
+        },
+        {
+            "col_name": "mrp-static",
+            "nr_of_documents": 4350,
+            "nr_of_fields": 13,
+            "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
+            "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
+            "service_ids": "28624"
+        },
+        {
+            "col_name": "emt",
+            "nr_of_documents": 1599,
+            "nr_of_fields": 22,
+            "owners": "Peter Andorfer, Kinga Sramó",
+            "description": "https://github.com/emt-project/emt-static",
+            "service_ids": "21311"
+        },
+        {
+            "col_name": "dhd-abstracts",
+            "nr_of_documents": 1180,
+            "nr_of_fields": 9,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/acdh-oeaw/dhd-abstracts-static",
+            "service_ids": "24892"
+        },
         {
             "col_name": "akademie-static",
             "nr_of_documents": 1728,
@@ -60,14 +92,6 @@
             "service_ids": "22113"
         },
         {
-            "col_name": "emt",
-            "nr_of_documents": 1599,
-            "nr_of_fields": 22,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
             "col_name": "tillich-lectures",
             "nr_of_documents": 660,
             "nr_of_fields": 11,
@@ -98,14 +122,6 @@
             "owners": "Peter Andorfer",
             "description": "https://github.com/letters1916static/letters1916-static",
             "service_ids": "28621"
-        },
-        {
-            "col_name": "mrp-static",
-            "nr_of_documents": 4350,
-            "nr_of_fields": 13,
-            "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
-            "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
-            "service_ids": "28624"
         },
         {
             "col_name": "nbr-pius-xi",
@@ -186,14 +202,6 @@
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"
-        },
-        {
-            "col_name": "dhd-abstracts",
-            "nr_of_documents": 1180,
-            "nr_of_fields": 9,
-            "owners": "Peter Andorfer",
-            "description": "https://github.com/acdh-oeaw/dhd-abstracts-static",
-            "service_ids": "24892"
         },
         {
             "col_name": "gtrans",

@@ -40,7 +40,7 @@ nbr-graz,2041,7,"Peter Andorfer, Martin Kroißenbrunner",https://github.com/nunt
 grundbuecher,1999,4,Peter Andorfer,https://github.com/KONDE-AT/grundbuecher-static,12131
 wkfm,1945,4,Peter Andorfer,https://github.com/donauhandel/wkfm-static,20289
 akademie-static,1728,9,"Peter Andorfer, Kinga Sramó",https://github.com/acdh-oeaw/akademie-static,22891
-emt,1599,22,not set,not set,not set
+emt,1599,22,"Peter Andorfer, Kinga Sramó",https://github.com/emt-project/emt-static,21311
 viecpro_v3_institution_detail,1548,17,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 viecpro_v3_institution,1548,10,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 bahr-static,1367,8,not set,not set,not set
@@ -70,6 +70,7 @@ walpurgisnacht_umschrift,388,8,not set,not set,not set
 dig-ed-cat,358,65,Peter Andorfer,https://github.com/dig-Eds-cat/dig-ed-cat-static,5976
 kalbeck-tagebuch-static,341,16,"Peter Andorfer, Fernando Sanz-Lázaro",'Max Kalbeck Tagebuch' (https://github.com/max-kalbeck/kalbeck-tagebuch-static),26167
 digitarium,334,5,not set,not set,not set
+LOI,293,20,Ivana Dobcheva,"index for the LOI project, indexing all passages",28231
 dariah-campus,292,8,not set,not set,not set
 bruckner-dwab,275,13,not set,not set,not set
 hit__msitems,235,183,Ivana Dobcheva,"index for the HIT project, indexing all msitems",23143
