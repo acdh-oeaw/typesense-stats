@@ -28,9 +28,9 @@ mrp-static,4350,13,"Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",https://git
 legalkraus,4002,34,"Peter Andorfer, Barbara Krautgartner",https://github.com/karl-kraus/legalkraus-static/,22730
 wiener-rundschau-static,3482,12,Peter Andorfer,https://github.com/acdh-oeaw/wiener-rundschau-static,26179
 baedeker,3017,10,Peter Andorfer,https://github.com/acdh-oeaw/bd-static,25507
-dariah-website,3016,8,stefan.probst@oeaw.ac.at,DARIAH.eu website,"22513, 25534"
+dariah-website,3015,8,stefan.probst@oeaw.ac.at,DARIAH.eu website,"22513, 25534"
 schubert_ci_schnellsuche,2987,9,not set,not set,not set
-schubert_dev_schnellsuche,2962,9,@peterpro,schnellsuche data for schubert staging,22517
+schubert_dev_schnellsuche,2961,9,@peterpro,schnellsuche data for schubert staging,22517
 viecpro_v3_place_detail,2817,17,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 viecpro_v3_place,2817,8,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 mahler-letters,2636,14,not set,not set,not set
@@ -57,7 +57,7 @@ gtrans,939,16,Peter Andorfer,https://github.com/acdh-oeaw/gtrans-static,10758
 mahler-performances,938,16,not set,not set,not set
 thun-static,865,9,Peter Andorfer,https://github.com/KfNGOe/thun-static,18716
 schnitzler-kino,821,4,not set,not set,not set
-pez-nachlass,794,14,not set,not set,not set
+pez-nachlass,794,14,Peter Andorfer,https://github.com/acdh-oeaw/pez-nachlass-static,28627
 kb-static,750,11,"Peter Andorfer, Bernhard Oberreither",https://github.com/karl-kraus/kb-static,26461
 dieinsel_index_articles,747,34,not set,not set,not set
 tillich-lectures,660,11,"Peter Andorfer, Thomas Klampfl",https://github.com/TillichCorrespondence/tillich-lectures-static,23501

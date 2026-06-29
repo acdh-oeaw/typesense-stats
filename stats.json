@@ -1,8 +1,16 @@
 {
     "nr_of_collections": 100,
-    "with_metadata": 58,
-    "nr_of_documents": 762682,
+    "with_metadata": 59,
+    "nr_of_documents": 762680,
     "collections": [
+        {
+            "col_name": "pez-nachlass",
+            "nr_of_documents": 794,
+            "nr_of_fields": 14,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/acdh-oeaw/pez-nachlass-static",
+            "service_ids": "28627"
+        },
         {
             "col_name": "schubert_dev",
             "nr_of_documents": 228,
@@ -21,11 +29,19 @@
         },
         {
             "col_name": "schubert_dev_schnellsuche",
-            "nr_of_documents": 2962,
+            "nr_of_documents": 2961,
             "nr_of_fields": 9,
             "owners": "@peterpro",
             "description": "schnellsuche data for schubert staging",
             "service_ids": "22517"
+        },
+        {
+            "col_name": "JAD-temp",
+            "nr_of_documents": 2319,
+            "nr_of_fields": 60,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the JAD project, indexing all passages",
+            "service_ids": "23082"
         },
         {
             "col_name": "LOI",
@@ -98,14 +114,6 @@
             "owners": "Peter Andorfer",
             "description": "Fulltext index over several projects, see https://github.com/acdh-oeaw/acdh-cfts-pyutils",
             "service_ids": "28216"
-        },
-        {
-            "col_name": "JAD-temp",
-            "nr_of_documents": 2319,
-            "nr_of_fields": 60,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the JAD project, indexing all passages",
-            "service_ids": "23082"
         },
         {
             "col_name": "tillich-briefe",
@@ -445,7 +453,7 @@
         },
         {
             "col_name": "dariah-website",
-            "nr_of_documents": 3016,
+            "nr_of_documents": 3015,
             "nr_of_fields": 8,
             "owners": "stefan.probst@oeaw.ac.at",
             "description": "DARIAH.eu website",
@@ -682,14 +690,6 @@
             "owners": "matthias.schloegl@oeaw.ac.at",
             "description": "VieCPro (https://viecpro.acdh.oeaw.ac.at)",
             "service_ids": "21622, 22433"
-        },
-        {
-            "col_name": "pez-nachlass",
-            "nr_of_documents": 794,
-            "nr_of_fields": 14,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
         },
         {
             "col_name": "bruckner-dwab",
