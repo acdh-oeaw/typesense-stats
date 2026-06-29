@@ -18,6 +18,7 @@ hsl,7885,9,not set,not set,not set
 hbtv,6780,8,not set,not set,not set
 hbtv-v3,6780,14,not set,not set,not set
 hbtv-v2,6780,14,not set,not set,not set
+cfts,6623,12,Peter Andorfer,"Fulltext index over several projects, see https://github.com/acdh-oeaw/acdh-cfts-pyutils",28216
 bundes_verfassung_oesterreich,5947,16,"Peter Andorfer, Carl Friedrich Haak","Index of the Austrian Federal Constitution (Bundes-Verfassungsgesetz)documents and subsections of documents are both indexed as documents, to make the full text but also the different documents as such searchable.",21497
 freud-edition,5641,6,not set,not set,not set
 prosnet-wikidata-organization-index,5531,5,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
@@ -38,7 +39,7 @@ brahms,2077,17,not set,not set,not set
 nbr-graz,2041,7,"Peter Andorfer, Martin Kroißenbrunner",https://github.com/nuntiaturberichte/nbr-graz-static,13585
 grundbuecher,1999,4,Peter Andorfer,https://github.com/KONDE-AT/grundbuecher-static,12131
 wkfm,1945,4,Peter Andorfer,https://github.com/donauhandel/wkfm-static,20289
-akademie-static,1728,9,"Peter Andorfer, Kinga Sramó",https://github.com/acdh-oeaw/akademie-static,18716
+akademie-static,1728,9,"Peter Andorfer, Kinga Sramó",https://github.com/acdh-oeaw/akademie-static,22891
 emt,1599,22,not set,not set,not set
 viecpro_v3_institution_detail,1548,17,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 viecpro_v3_institution,1548,10,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
@@ -95,6 +96,5 @@ dieinsel_index_uebersicht,34,15,not set,not set,not set
 leopold-briefe-static,11,10,Peter Andorfer,https://github.com/leopold-briefe/leopold-briefe-static,28144
 oeml-play,4,10,not set,not set,not set
 dse-static,3,16,dse-static-cookiecutter,Used by https://github.com/acdh-oeaw/dse-static,18716
-cfts,0,12,Peter Andorfer,"Fulltext index over several projects, see https://github.com/acdh-oeaw/acdh-cfts-pyutils",28216
 the-knowledge-base-website,0,8,Barbara Krautgartner,The Knowledge Base,23817
 the-knowledge-base-resources,0,17,Barbara Krautgartner,The Knowledge Base,23817

@@ -1,11 +1,43 @@
 {
     "nr_of_collections": 99,
     "with_metadata": 56,
-    "nr_of_documents": 755789,
+    "nr_of_documents": 762412,
     "collections": [
         {
+            "col_name": "akademie-static",
+            "nr_of_documents": 1728,
+            "nr_of_fields": 9,
+            "owners": "Peter Andorfer, Kinga Sramó",
+            "description": "https://github.com/acdh-oeaw/akademie-static",
+            "service_ids": "22891"
+        },
+        {
+            "col_name": "hit__strata",
+            "nr_of_documents": 54,
+            "nr_of_fields": 54,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the HIT project, indexing all strata",
+            "service_ids": "23143"
+        },
+        {
+            "col_name": "hit__msitems",
+            "nr_of_documents": 235,
+            "nr_of_fields": 183,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the HIT project, indexing all msitems",
+            "service_ids": "23143"
+        },
+        {
+            "col_name": "STB",
+            "nr_of_documents": 4895,
+            "nr_of_fields": 8,
+            "owners": "Peter Andorfer, Carl Friedrich Haak, Michaela Rausch-Supola, Fernando Sanz-Lázaro",
+            "description": "Used for Register of https://staribacher.acdh.oeaw.ac.at/",
+            "service_ids": "23089"
+        },
+        {
             "col_name": "cfts",
-            "nr_of_documents": 0,
+            "nr_of_documents": 6623,
             "nr_of_fields": 12,
             "owners": "Peter Andorfer",
             "description": "Fulltext index over several projects, see https://github.com/acdh-oeaw/acdh-cfts-pyutils",
@@ -52,14 +84,6 @@
             "service_ids": "26167"
         },
         {
-            "col_name": "akademie-static",
-            "nr_of_documents": 1728,
-            "nr_of_fields": 9,
-            "owners": "Peter Andorfer, Kinga Sramó",
-            "description": "https://github.com/acdh-oeaw/akademie-static",
-            "service_ids": "18716"
-        },
-        {
             "col_name": "leopold-briefe-static",
             "nr_of_documents": 11,
             "nr_of_fields": 10,
@@ -82,22 +106,6 @@
             "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
             "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
             "service_ids": "28624"
-        },
-        {
-            "col_name": "hit__strata",
-            "nr_of_documents": 54,
-            "nr_of_fields": 54,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the HIT project, indexing all strata",
-            "service_ids": "23143"
-        },
-        {
-            "col_name": "hit__msitems",
-            "nr_of_documents": 235,
-            "nr_of_fields": 183,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the HIT project, indexing all msitems",
-            "service_ids": "23143"
         },
         {
             "col_name": "nbr-pius-xi",
@@ -338,14 +346,6 @@
             "owners": "dse-static-cookiecutter",
             "description": "Used by https://github.com/acdh-oeaw/dse-static",
             "service_ids": "18716"
-        },
-        {
-            "col_name": "STB",
-            "nr_of_documents": 4895,
-            "nr_of_fields": 8,
-            "owners": "Peter Andorfer, Carl Friedrich Haak, Michaela Rausch-Supola, Fernando Sanz-Lázaro",
-            "description": "Used for Register of https://staribacher.acdh.oeaw.ac.at/",
-            "service_ids": "23089"
         },
         {
             "col_name": "walpurgisnacht_umschrift",
