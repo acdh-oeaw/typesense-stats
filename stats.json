@@ -1,8 +1,88 @@
 {
     "nr_of_collections": 100,
-    "with_metadata": 59,
-    "nr_of_documents": 762680,
+    "with_metadata": 60,
+    "nr_of_documents": 784126,
     "collections": [
+        {
+            "col_name": "stb",
+            "nr_of_documents": 16423,
+            "nr_of_fields": 8,
+            "owners": "Peter Andorfer, Martin Anton Müller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-tagebuch-static",
+            "service_ids": "11833"
+        },
+        {
+            "col_name": "hit__strata",
+            "nr_of_documents": 54,
+            "nr_of_fields": 54,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the HIT project, indexing all strata",
+            "service_ids": "23143"
+        },
+        {
+            "col_name": "hit__msitems",
+            "nr_of_documents": 235,
+            "nr_of_fields": 183,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the HIT project, indexing all msitems",
+            "service_ids": "23143"
+        },
+        {
+            "col_name": "emt",
+            "nr_of_documents": 1601,
+            "nr_of_fields": 22,
+            "owners": "Peter Andorfer, Kinga Sramó",
+            "description": "https://github.com/emt-project/emt-static",
+            "service_ids": "21311"
+        },
+        {
+            "col_name": "tillich-briefe",
+            "nr_of_documents": 1325,
+            "nr_of_fields": 20,
+            "owners": "Peter Andorfer, Thomas Klampfl",
+            "description": "https://github.com/TillichCorrespondence/tillich-briefe-static",
+            "service_ids": "22113"
+        },
+        {
+            "col_name": "tillich-lectures",
+            "nr_of_documents": 660,
+            "nr_of_fields": 11,
+            "owners": "Peter Andorfer, Thomas Klampfl",
+            "description": "https://github.com/TillichCorrespondence/tillich-lectures-static",
+            "service_ids": "23501"
+        },
+        {
+            "col_name": "akademie-static",
+            "nr_of_documents": 1728,
+            "nr_of_fields": 9,
+            "owners": "Peter Andorfer, Kinga Sramó",
+            "description": "https://github.com/acdh-oeaw/akademie-static",
+            "service_ids": "22891"
+        },
+        {
+            "col_name": "kalbeck-tagebuch-static",
+            "nr_of_documents": 341,
+            "nr_of_fields": 16,
+            "owners": "Peter Andorfer, Fernando Sanz-Lázaro",
+            "description": "'Max Kalbeck Tagebuch' (https://github.com/max-kalbeck/kalbeck-tagebuch-static)",
+            "service_ids": "26167"
+        },
+        {
+            "col_name": "leopold-briefe-static",
+            "nr_of_documents": 11,
+            "nr_of_fields": 10,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/leopold-briefe/leopold-briefe-static",
+            "service_ids": "28144"
+        },
+        {
+            "col_name": "schnitzler-briefe",
+            "nr_of_documents": 4364,
+            "nr_of_fields": 29,
+            "owners": "Peter Andorfer, Martin Anton Müller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-briefe-static",
+            "service_ids": "21741"
+        },
         {
             "col_name": "pez-nachlass",
             "nr_of_documents": 794,
@@ -60,44 +140,12 @@
             "service_ids": "28624"
         },
         {
-            "col_name": "emt",
-            "nr_of_documents": 1599,
-            "nr_of_fields": 22,
-            "owners": "Peter Andorfer, Kinga Sramó",
-            "description": "https://github.com/emt-project/emt-static",
-            "service_ids": "21311"
-        },
-        {
             "col_name": "dhd-abstracts",
             "nr_of_documents": 1180,
             "nr_of_fields": 9,
             "owners": "Peter Andorfer",
             "description": "https://github.com/acdh-oeaw/dhd-abstracts-static",
             "service_ids": "24892"
-        },
-        {
-            "col_name": "akademie-static",
-            "nr_of_documents": 1728,
-            "nr_of_fields": 9,
-            "owners": "Peter Andorfer, Kinga Sramó",
-            "description": "https://github.com/acdh-oeaw/akademie-static",
-            "service_ids": "22891"
-        },
-        {
-            "col_name": "hit__strata",
-            "nr_of_documents": 54,
-            "nr_of_fields": 54,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the HIT project, indexing all strata",
-            "service_ids": "23143"
-        },
-        {
-            "col_name": "hit__msitems",
-            "nr_of_documents": 235,
-            "nr_of_fields": 183,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the HIT project, indexing all msitems",
-            "service_ids": "23143"
         },
         {
             "col_name": "STB",
@@ -109,43 +157,11 @@
         },
         {
             "col_name": "cfts",
-            "nr_of_documents": 6623,
+            "nr_of_documents": 28070,
             "nr_of_fields": 12,
             "owners": "Peter Andorfer",
             "description": "Fulltext index over several projects, see https://github.com/acdh-oeaw/acdh-cfts-pyutils",
             "service_ids": "28216"
-        },
-        {
-            "col_name": "tillich-briefe",
-            "nr_of_documents": 1325,
-            "nr_of_fields": 20,
-            "owners": "Peter Andorfer, Thomas Klampfl",
-            "description": "https://github.com/TillichCorrespondence/tillich-briefe-static",
-            "service_ids": "22113"
-        },
-        {
-            "col_name": "tillich-lectures",
-            "nr_of_documents": 660,
-            "nr_of_fields": 11,
-            "owners": "Peter Andorfer, Thomas Klampfl",
-            "description": "https://github.com/TillichCorrespondence/tillich-lectures-static",
-            "service_ids": "23501"
-        },
-        {
-            "col_name": "kalbeck-tagebuch-static",
-            "nr_of_documents": 341,
-            "nr_of_fields": 16,
-            "owners": "Peter Andorfer, Fernando Sanz-Lázaro",
-            "description": "'Max Kalbeck Tagebuch' (https://github.com/max-kalbeck/kalbeck-tagebuch-static)",
-            "service_ids": "26167"
-        },
-        {
-            "col_name": "leopold-briefe-static",
-            "nr_of_documents": 11,
-            "nr_of_fields": 10,
-            "owners": "Peter Andorfer",
-            "description": "https://github.com/leopold-briefe/leopold-briefe-static",
-            "service_ids": "28144"
         },
         {
             "col_name": "letters1916-static",
@@ -196,20 +212,12 @@
             "service_ids": "23145"
         },
         {
-            "col_name": "schnitzler-briefe",
-            "nr_of_documents": 4366,
-            "nr_of_fields": 29,
-            "owners": "Peter Andorfer, Martin Anton Müller",
-            "description": "https://github.com/arthur-schnitzler/schnitzler-briefe-static",
-            "service_ids": "21741"
-        },
-        {
             "col_name": "dariah-campus",
             "nr_of_documents": 292,
             "nr_of_fields": 8,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "stefan.probst@oeaw.ac.at",
+            "description": "DARIAH-Campus",
+            "service_ids": "16225"
         },
         {
             "col_name": "gtrans",
@@ -274,14 +282,6 @@
             "owners": "Peter Andorfer, Martin Anton Müller",
             "description": "https://github.com/arthur-schnitzler/schnitzler-mikrofilme-static",
             "service_ids": "22703"
-        },
-        {
-            "col_name": "stb",
-            "nr_of_documents": 16423,
-            "nr_of_fields": 8,
-            "owners": "Peter Andorfer, Martin Anton Müller",
-            "description": "https://github.com/arthur-schnitzler/schnitzler-tagebuch-static",
-            "service_ids": "11833"
         },
         {
             "col_name": "schnitzler-interviews",
@@ -453,7 +453,7 @@
         },
         {
             "col_name": "dariah-website",
-            "nr_of_documents": 3015,
+            "nr_of_documents": 3014,
             "nr_of_fields": 8,
             "owners": "stefan.probst@oeaw.ac.at",
             "description": "DARIAH.eu website",
@@ -663,7 +663,7 @@
             "col_name": "bruckner-bibliographie",
             "nr_of_documents": 9847,
             "nr_of_fields": 3,
-            "owners": "Barbara Krautgartner, Stefan Probst",
+            "owners": "Barbara Krautgartner, stefan.probst@oeaw.ac.at",
             "description": "Bruckner Online Bibliographie",
             "service_ids": "22508"
         },
