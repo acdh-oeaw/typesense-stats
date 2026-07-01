@@ -1,8 +1,16 @@
 {
-    "nr_of_collections": 100,
+    "nr_of_collections": 96,
     "with_metadata": 70,
-    "nr_of_documents": 784136,
+    "nr_of_documents": 768388,
     "collections": [
+        {
+            "col_name": "tillich-briefe",
+            "nr_of_documents": 1325,
+            "nr_of_fields": 20,
+            "owners": "Peter Andorfer, Thomas Klampfl",
+            "description": "https://github.com/TillichCorrespondence/tillich-briefe-static",
+            "service_ids": "22113"
+        },
         {
             "col_name": "tillich-lectures",
             "nr_of_documents": 660,
@@ -90,14 +98,6 @@
             "owners": "Peter Andorfer, Kinga Sramó",
             "description": "https://github.com/emt-project/emt-static",
             "service_ids": "21311"
-        },
-        {
-            "col_name": "tillich-briefe",
-            "nr_of_documents": 1325,
-            "nr_of_fields": 20,
-            "owners": "Peter Andorfer, Thomas Klampfl",
-            "description": "https://github.com/TillichCorrespondence/tillich-briefe-static",
-            "service_ids": "22113"
         },
         {
             "col_name": "schnitzler-briefe",
@@ -508,14 +508,6 @@
             "service_ids": "not set"
         },
         {
-            "col_name": "bahr-static",
-            "nr_of_documents": 1367,
-            "nr_of_fields": 8,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
             "col_name": "OKAR",
             "nr_of_documents": 61110,
             "nr_of_fields": 15,
@@ -623,22 +615,6 @@
             "col_name": "pollaczek",
             "nr_of_documents": 990,
             "nr_of_fields": 4,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "hbtv-v3",
-            "nr_of_documents": 6780,
-            "nr_of_fields": 14,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "hbtv-v2",
-            "nr_of_documents": 6780,
-            "nr_of_fields": 14,
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"
@@ -783,14 +759,6 @@
             "col_name": "mahler",
             "nr_of_documents": 58,
             "nr_of_fields": 6,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "schnitzler-kino",
-            "nr_of_documents": 821,
-            "nr_of_fields": 4,
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"

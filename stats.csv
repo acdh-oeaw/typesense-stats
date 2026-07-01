@@ -17,8 +17,6 @@ oeml-search-local,9774,10,@peterpro,search data for oeml-static,23145
 daacda,8124,17,Peter Andorfer,https://github.com/acdh-oeaw/daacda-static,25177
 hsl,7885,9,not set,not set,not set
 hbtv,6780,8,not set,not set,not set
-hbtv-v3,6780,14,not set,not set,not set
-hbtv-v2,6780,14,not set,not set,not set
 bundes_verfassung_oesterreich,5947,16,"Peter Andorfer, Carl Friedrich Haak","Index of the Austrian Federal Constitution (Bundes-Verfassungsgesetz)documents and subsections of documents are both indexed as documents, to make the full text but also the different documents as such searchable.",21497
 freud-edition,5641,6,not set,not set,not set
 prosnet-wikidata-organization-index,5531,5,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
@@ -43,7 +41,6 @@ akademie-static,1728,9,"Peter Andorfer, Kinga Sramó",https://github.com/acdh-oe
 emt,1601,22,"Peter Andorfer, Kinga Sramó",https://github.com/emt-project/emt-static,21311
 viecpro_v3_institution_detail,1548,17,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 viecpro_v3_institution,1548,10,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
-bahr-static,1367,8,not set,not set,not set
 tillich-briefe,1325,20,"Peter Andorfer, Thomas Klampfl",https://github.com/TillichCorrespondence/tillich-briefe-static,22113
 parlamint,1221,7,not set,not set,not set
 dhd-abstracts,1180,9,Peter Andorfer,https://github.com/acdh-oeaw/dhd-abstracts-static,24892
@@ -56,7 +53,6 @@ pollaczek,990,4,not set,not set,not set
 gtrans,939,16,Peter Andorfer,https://github.com/acdh-oeaw/gtrans-static,10758
 mahler-performances,938,16,not set,not set,not set
 thun-static,865,9,Peter Andorfer,https://github.com/KfNGOe/thun-static,18716
-schnitzler-kino,821,4,not set,not set,not set
 pez-nachlass,794,14,Peter Andorfer,https://github.com/acdh-oeaw/pez-nachlass-static,28627
 kb-static,750,11,"Peter Andorfer, Bernhard Oberreither",https://github.com/karl-kraus/kb-static,26461
 dieinsel_index_articles,747,34,Daniel Elsner,Fulltext search index for dieinsel_index_articles,24106
