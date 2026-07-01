@@ -1,8 +1,40 @@
 {
     "nr_of_collections": 100,
-    "with_metadata": 60,
-    "nr_of_documents": 784126,
+    "with_metadata": 70,
+    "nr_of_documents": 784136,
     "collections": [
+        {
+            "col_name": "tillich-lectures",
+            "nr_of_documents": 660,
+            "nr_of_fields": 11,
+            "owners": "Peter Andorfer, Thomas Klampfl",
+            "description": "https://github.com/TillichCorrespondence/tillich-lectures-static",
+            "service_ids": "23501"
+        },
+        {
+            "col_name": "kalbeck-tagebuch-static",
+            "nr_of_documents": 341,
+            "nr_of_fields": 16,
+            "owners": "Peter Andorfer, Fernando Sanz-Lázaro",
+            "description": "'Max Kalbeck Tagebuch' (https://github.com/max-kalbeck/kalbeck-tagebuch-static)",
+            "service_ids": "26167"
+        },
+        {
+            "col_name": "akademie-static",
+            "nr_of_documents": 1728,
+            "nr_of_fields": 9,
+            "owners": "Peter Andorfer, Kinga Sramó",
+            "description": "https://github.com/acdh-oeaw/akademie-static",
+            "service_ids": "22891"
+        },
+        {
+            "col_name": "leopold-briefe-static",
+            "nr_of_documents": 11,
+            "nr_of_fields": 10,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/leopold-briefe/leopold-briefe-static",
+            "service_ids": "28144"
+        },
         {
             "col_name": "stb",
             "nr_of_documents": 16423,
@@ -10,6 +42,30 @@
             "owners": "Peter Andorfer, Martin Anton Müller",
             "description": "https://github.com/arthur-schnitzler/schnitzler-tagebuch-static",
             "service_ids": "11833"
+        },
+        {
+            "col_name": "LOI",
+            "nr_of_documents": 293,
+            "nr_of_fields": 21,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the LOI project, indexing all passages",
+            "service_ids": "28231"
+        },
+        {
+            "col_name": "JAD-temp",
+            "nr_of_documents": 2319,
+            "nr_of_fields": 60,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the JAD project, indexing all passages",
+            "service_ids": "23082"
+        },
+        {
+            "col_name": "mrp-static",
+            "nr_of_documents": 4350,
+            "nr_of_fields": 13,
+            "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
+            "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
+            "service_ids": "28624"
         },
         {
             "col_name": "hit__strata",
@@ -42,38 +98,6 @@
             "owners": "Peter Andorfer, Thomas Klampfl",
             "description": "https://github.com/TillichCorrespondence/tillich-briefe-static",
             "service_ids": "22113"
-        },
-        {
-            "col_name": "tillich-lectures",
-            "nr_of_documents": 660,
-            "nr_of_fields": 11,
-            "owners": "Peter Andorfer, Thomas Klampfl",
-            "description": "https://github.com/TillichCorrespondence/tillich-lectures-static",
-            "service_ids": "23501"
-        },
-        {
-            "col_name": "akademie-static",
-            "nr_of_documents": 1728,
-            "nr_of_fields": 9,
-            "owners": "Peter Andorfer, Kinga Sramó",
-            "description": "https://github.com/acdh-oeaw/akademie-static",
-            "service_ids": "22891"
-        },
-        {
-            "col_name": "kalbeck-tagebuch-static",
-            "nr_of_documents": 341,
-            "nr_of_fields": 16,
-            "owners": "Peter Andorfer, Fernando Sanz-Lázaro",
-            "description": "'Max Kalbeck Tagebuch' (https://github.com/max-kalbeck/kalbeck-tagebuch-static)",
-            "service_ids": "26167"
-        },
-        {
-            "col_name": "leopold-briefe-static",
-            "nr_of_documents": 11,
-            "nr_of_fields": 10,
-            "owners": "Peter Andorfer",
-            "description": "https://github.com/leopold-briefe/leopold-briefe-static",
-            "service_ids": "28144"
         },
         {
             "col_name": "schnitzler-briefe",
@@ -114,30 +138,6 @@
             "owners": "@peterpro",
             "description": "schnellsuche data for schubert staging",
             "service_ids": "22517"
-        },
-        {
-            "col_name": "JAD-temp",
-            "nr_of_documents": 2319,
-            "nr_of_fields": 60,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the JAD project, indexing all passages",
-            "service_ids": "23082"
-        },
-        {
-            "col_name": "LOI",
-            "nr_of_documents": 293,
-            "nr_of_fields": 20,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the LOI project, indexing all passages",
-            "service_ids": "28231"
-        },
-        {
-            "col_name": "mrp-static",
-            "nr_of_documents": 4350,
-            "nr_of_fields": 13,
-            "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
-            "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
-            "service_ids": "28624"
         },
         {
             "col_name": "dhd-abstracts",
@@ -351,8 +351,8 @@
             "col_name": "armesuenderblaetter",
             "nr_of_documents": 120,
             "nr_of_fields": 22,
-            "owners": "Daniel Elsner, Fernando Sanz-Lazaro, LP",
-            "description": "Used for Übersicht of https://armesuenderblaetter.acdh-cluster-2.arz.oeaw.ac.at/",
+            "owners": "Daniel Elsner",
+            "description": "Fulltext search index for armesuenderblaetter",
             "service_ids": "22954"
         },
         {
@@ -367,9 +367,9 @@
             "col_name": "walpurgisnacht_umschrift",
             "nr_of_documents": 388,
             "nr_of_fields": 8,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "Daniel Elsner",
+            "description": "Fulltext search index for walpurgisnacht_umschrift",
+            "service_ids": "26842"
         },
         {
             "col_name": "hiob",
@@ -391,17 +391,17 @@
             "col_name": "dieinsel_index_articles",
             "nr_of_documents": 747,
             "nr_of_fields": 34,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "Daniel Elsner",
+            "description": "Fulltext search index for dieinsel_index_articles",
+            "service_ids": "24106"
         },
         {
             "col_name": "dieinsel_index_uebersicht",
             "nr_of_documents": 34,
             "nr_of_fields": 15,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "Daniel Elsner",
+            "description": "Fulltext search index for dieinsel_index_uebersicht",
+            "service_ids": "24106"
         },
         {
             "col_name": "aad",
@@ -479,9 +479,9 @@
             "col_name": "walpurgisnacht",
             "nr_of_documents": 65,
             "nr_of_fields": 7,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "Daniel Elsner",
+            "description": "Fulltext search index for walpurgisnacht",
+            "service_ids": "26842"
         },
         {
             "col_name": "hbtv",
@@ -559,9 +559,9 @@
             "col_name": "flugblaetter_todesurteile",
             "nr_of_documents": 111,
             "nr_of_fields": 21,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "Daniel Elsner",
+            "description": "Fulltext search index for flugblaetter_todesurteile",
+            "service_ids": "22954"
         },
         {
             "col_name": "viecpro_v3_institution_detail",
@@ -615,9 +615,9 @@
             "col_name": "flugblaetter_todesurteile_persons",
             "nr_of_documents": 126,
             "nr_of_fields": 20,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "Daniel Elsner",
+            "description": "Fulltext search index for flugblaetter_todesurteile_persons",
+            "service_ids": "22954"
         },
         {
             "col_name": "pollaczek",
@@ -703,25 +703,25 @@
             "col_name": "gestrich_index",
             "nr_of_documents": 1144,
             "nr_of_fields": 22,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "Daniel Elsner",
+            "description": "Fulltext search index for gestrich_index",
+            "service_ids": "22895"
         },
         {
             "col_name": "amp",
             "nr_of_documents": 222,
             "nr_of_fields": 18,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "Daniel Elsner",
+            "description": "Fulltext search index for amp",
+            "service_ids": "20226"
         },
         {
             "col_name": "thomas-bernhard",
             "nr_of_documents": 1069,
             "nr_of_fields": 15,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "kevin.stadler@oeaw.ac.at",
+            "description": "Thomas Bernhard in Translation (https://github.com/acdh-oeaw/thomas-bernhard-in-translation)",
+            "service_ids": "23026, 23935"
         },
         {
             "col_name": "prosnet-wikidata-organization-index",
@@ -741,7 +741,7 @@
         },
         {
             "col_name": "prosnet-wikidata-place-index",
-            "nr_of_documents": 83258,
+            "nr_of_documents": 83263,
             "nr_of_fields": 5,
             "owners": "matthias.schloegl@oeaw.ac.at",
             "description": "Autocomplete sources shared by APIS instances",
@@ -749,7 +749,7 @@
         },
         {
             "col_name": "prosnet-wikidata-person-index",
-            "nr_of_documents": 21294,
+            "nr_of_documents": 21299,
             "nr_of_fields": 7,
             "owners": "matthias.schloegl@oeaw.ac.at",
             "description": "Autocomplete sources shared by APIS instances",
@@ -799,9 +799,9 @@
             "col_name": "digitarium",
             "nr_of_documents": 334,
             "nr_of_fields": 5,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "owners": "Daniel Elsner",
+            "description": "Fulltext search index for digitarium",
+            "service_ids": "22895"
         }
     ]
 }
