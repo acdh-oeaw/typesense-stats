@@ -6,10 +6,6 @@ from typing import Any
 import requests
 
 COLS_TO_DELETE = [
-    "hbtv-v3",
-    "hbtv-v2",
-    "schnitzler-kino",
-    "bahr-static",
 ]
 
 TYPESENSE_API_KEY = os.environ.get("TYPESENSE_API_KEY", "xyz")

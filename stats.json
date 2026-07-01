@@ -1,8 +1,16 @@
 {
-    "nr_of_collections": 96,
-    "with_metadata": 70,
-    "nr_of_documents": 768388,
+    "nr_of_collections": 97,
+    "with_metadata": 71,
+    "nr_of_documents": 771122,
     "collections": [
+        {
+            "col_name": "bahr-static",
+            "nr_of_documents": 1367,
+            "nr_of_fields": 8,
+            "owners": "Peter Andorfer, Martin Anton Müller",
+            "description": "https://schnitzler-bahr.acdh.oeaw.ac.at/",
+            "service_ids": "10694"
+        },
         {
             "col_name": "tillich-briefe",
             "nr_of_documents": 1325,
@@ -157,7 +165,7 @@
         },
         {
             "col_name": "cfts",
-            "nr_of_documents": 28070,
+            "nr_of_documents": 29437,
             "nr_of_fields": 12,
             "owners": "Peter Andorfer",
             "description": "Fulltext index over several projects, see https://github.com/acdh-oeaw/acdh-cfts-pyutils",
