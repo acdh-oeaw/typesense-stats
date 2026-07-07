@@ -1,15 +1,15 @@
 col_name,nr_of_documents,nr_of_fields,owners,description,service_ids
-prosnet-geonames-place-index,170352,5,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
-prosnet-wikidata-place-index,83263,5,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
+prosnet-geonames-place-index,170847,5,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
+prosnet-wikidata-place-index,83287,5,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
 schnitzler-chronik,66573,5,"Peter Andorfer, Martin Anton Müller",https://github.com/arthur-schnitzler/schnitzler-chronik-static,21628
 OKAR,61110,15,not set,not set,not set
 ofm_graz,51647,14,Fernando Sanz-Lázaro,Used for Register of https://ofm-graz.acdh.oeaw.ac.at,22275
 Schnitzler-Mikrofilme,44326,5,"Peter Andorfer, Martin Anton Müller",https://github.com/arthur-schnitzler/schnitzler-mikrofilme-static,22703
-cfts,29437,12,Peter Andorfer,"Fulltext index over several projects, see https://github.com/acdh-oeaw/acdh-cfts-pyutils",28216
+cfts,36217,12,Peter Andorfer,"Fulltext index over several projects, see https://github.com/acdh-oeaw/acdh-cfts-pyutils",28216
 viecpro_v3_person_detail,25766,34,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 viecpro_v3_person,25766,11,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 Schnitzler-Zeitungen,22571,4,"Peter Andorfer, Martin Anton Müller",https://github.com/arthur-schnitzler/schnitzler-zeitungen-static,15042
-prosnet-wikidata-person-index,21299,7,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
+prosnet-wikidata-person-index,21306,7,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
 stb,16423,8,"Peter Andorfer, Martin Anton Müller",https://github.com/arthur-schnitzler/schnitzler-tagebuch-static,11833
 bruckner-bibliographie,9847,3,"Barbara Krautgartner, stefan.probst@oeaw.ac.at",Bruckner Online Bibliographie,22508
 oeml-search,9788,22,not set,not set,not set
@@ -17,7 +17,7 @@ oeml-search-local,9774,10,@peterpro,search data for oeml-static,23145
 daacda,8124,17,Peter Andorfer,https://github.com/acdh-oeaw/daacda-static,25177
 hsl,7885,9,not set,not set,not set
 hbtv,6780,8,not set,not set,not set
-bundes_verfassung_oesterreich,5947,16,"Peter Andorfer, Carl Friedrich Haak","Index of the Austrian Federal Constitution (Bundes-Verfassungsgesetz)documents and subsections of documents are both indexed as documents, to make the full text but also the different documents as such searchable.",21497
+bundes_verfassung_oesterreich,5948,16,"Peter Andorfer, Carl Friedrich Haak","Index of the Austrian Federal Constitution (Bundes-Verfassungsgesetz)documents and subsections of documents are both indexed as documents, to make the full text but also the different documents as such searchable.",21497
 freud-edition,5641,6,not set,not set,not set
 prosnet-wikidata-organization-index,5531,5,matthias.schloegl@oeaw.ac.at,Autocomplete sources shared by APIS instances,not set
 STB,4895,8,"Peter Andorfer, Carl Friedrich Haak, Michaela Rausch-Supola, Fernando Sanz-Lázaro",Used for Register of https://staribacher.acdh.oeaw.ac.at/,23089
@@ -26,9 +26,9 @@ mrp-static,4350,13,"Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",https://git
 legalkraus,4002,34,"Peter Andorfer, Barbara Krautgartner",https://github.com/karl-kraus/legalkraus-static/,22730
 wiener-rundschau-static,3482,12,Peter Andorfer,https://github.com/acdh-oeaw/wiener-rundschau-static,26179
 baedeker,3017,10,Peter Andorfer,https://github.com/acdh-oeaw/bd-static,25507
-dariah-website,3014,8,stefan.probst@oeaw.ac.at,DARIAH.eu website,"22513, 25534"
 schubert_ci_schnellsuche,2987,9,not set,not set,not set
 schubert_dev_schnellsuche,2961,9,@peterpro,schnellsuche data for schubert staging,22517
+dariah-website,2958,8,stefan.probst@oeaw.ac.at,DARIAH.eu website,"22513, 25534"
 viecpro_v3_place_detail,2817,17,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 viecpro_v3_place,2817,8,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 mahler-letters,2636,14,not set,not set,not set
@@ -38,11 +38,11 @@ nbr-graz,2041,7,"Peter Andorfer, Martin Kroißenbrunner",https://github.com/nunt
 grundbuecher,1999,4,Peter Andorfer,https://github.com/KONDE-AT/grundbuecher-static,12131
 wkfm,1945,4,Peter Andorfer,https://github.com/donauhandel/wkfm-static,20289
 akademie-static,1728,9,"Peter Andorfer, Kinga Sramó",https://github.com/acdh-oeaw/akademie-static,22891
-emt,1601,22,"Peter Andorfer, Kinga Sramó",https://github.com/emt-project/emt-static,21311
+emt,1602,22,"Peter Andorfer, Kinga Sramó",https://github.com/emt-project/emt-static,21311
 viecpro_v3_institution_detail,1548,17,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 viecpro_v3_institution,1548,10,matthias.schloegl@oeaw.ac.at,VieCPro (https://viecpro.acdh.oeaw.ac.at),"21622, 22433"
 bahr-static,1367,8,"Peter Andorfer, Martin Anton Müller",https://schnitzler-bahr.acdh.oeaw.ac.at/,10694
-tillich-briefe,1325,20,"Peter Andorfer, Thomas Klampfl",https://github.com/TillichCorrespondence/tillich-briefe-static,22113
+tillich-briefe,1327,20,"Peter Andorfer, Thomas Klampfl",https://github.com/TillichCorrespondence/tillich-briefe-static,22113
 parlamint,1221,7,not set,not set,not set
 dhd-abstracts,1180,9,Peter Andorfer,https://github.com/acdh-oeaw/dhd-abstracts-static,24892
 gestrich_index,1144,22,Daniel Elsner,Fulltext search index for gestrich_index,22895
@@ -56,7 +56,7 @@ mahler-performances,938,16,not set,not set,not set
 thun-static,865,9,Peter Andorfer,https://github.com/KfNGOe/thun-static,18716
 pez-nachlass,794,14,Peter Andorfer,https://github.com/acdh-oeaw/pez-nachlass-static,28627
 kb-static,750,11,"Peter Andorfer, Bernhard Oberreither",https://github.com/karl-kraus/kb-static,26461
-dieinsel_index_articles,747,34,Daniel Elsner,Fulltext search index for dieinsel_index_articles,24106
+dieinsel_index_articles,747,40,"Daniel Elsner, Christian Lendl",Fulltext search index for Die Insel Register,24106
 tillich-lectures,660,11,"Peter Andorfer, Thomas Klampfl",https://github.com/TillichCorrespondence/tillich-lectures-static,23501
 hiob,620,16,not set,not set,not set
 dhq-search,616,7,not set,not set,not set
@@ -67,8 +67,8 @@ walpurgisnacht_umschrift,388,8,Daniel Elsner,Fulltext search index for walpurgis
 dig-ed-cat,358,65,Peter Andorfer,https://github.com/dig-Eds-cat/dig-ed-cat-static,5976
 kalbeck-tagebuch-static,341,16,"Peter Andorfer, Fernando Sanz-Lázaro",'Max Kalbeck Tagebuch' (https://github.com/max-kalbeck/kalbeck-tagebuch-static),26167
 digitarium,334,5,Daniel Elsner,Fulltext search index for digitarium,22895
-LOI,293,21,Ivana Dobcheva,"index for the LOI project, indexing all passages",28231
-dariah-campus,292,8,stefan.probst@oeaw.ac.at,DARIAH-Campus,16225
+LOI,294,19,Ivana Dobcheva,"index for the LOI project, indexing all passages",28231
+dariah-campus,293,8,not set,not set,not set
 bruckner-dwab,275,13,not set,not set,not set
 hit__msitems,235,183,Ivana Dobcheva,"index for the HIT project, indexing all msitems",23143
 schubert_dev,228,58,@peterpro,sources data for schubert staging,22517
@@ -90,7 +90,7 @@ rita,64,6,Peter Andorfer,https://github.com/acdh-oeaw/daacda-static,6930
 mahler-wv,58,10,not set,not set,not set
 mahler,58,6,not set,not set,not set
 hit__strata,54,54,Ivana Dobcheva,"index for the HIT project, indexing all strata",23143
-dieinsel_index_uebersicht,34,15,Daniel Elsner,Fulltext search index for dieinsel_index_uebersicht,24106
+dieinsel_index_uebersicht,34,15,"Daniel Elsner, Christian Lendl",Fulltext search index for Die Insel Übersicht,24106
 leopold-briefe-static,11,10,Peter Andorfer,https://github.com/leopold-briefe/leopold-briefe-static,28144
 oeml-play,4,10,not set,not set,not set
 dse-static,3,16,dse-static-cookiecutter,Used by https://github.com/acdh-oeaw/dse-static,18716

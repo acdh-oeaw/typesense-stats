@@ -1,19 +1,35 @@
 {
     "nr_of_collections": 97,
-    "with_metadata": 71,
-    "nr_of_documents": 771122,
+    "with_metadata": 70,
+    "nr_of_documents": 778378,
     "collections": [
         {
-            "col_name": "bahr-static",
-            "nr_of_documents": 1367,
-            "nr_of_fields": 8,
-            "owners": "Peter Andorfer, Martin Anton Müller",
-            "description": "https://schnitzler-bahr.acdh.oeaw.ac.at/",
-            "service_ids": "10694"
+            "col_name": "kb-static",
+            "nr_of_documents": 750,
+            "nr_of_fields": 11,
+            "owners": "Peter Andorfer, Bernhard Oberreither",
+            "description": "https://github.com/karl-kraus/kb-static",
+            "service_ids": "26461"
+        },
+        {
+            "col_name": "aad",
+            "nr_of_documents": 467,
+            "nr_of_fields": 19,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "LOI",
+            "nr_of_documents": 294,
+            "nr_of_fields": 19,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the LOI project, indexing all passages",
+            "service_ids": "28231"
         },
         {
             "col_name": "tillich-briefe",
-            "nr_of_documents": 1325,
+            "nr_of_documents": 1327,
             "nr_of_fields": 20,
             "owners": "Peter Andorfer, Thomas Klampfl",
             "description": "https://github.com/TillichCorrespondence/tillich-briefe-static",
@@ -52,20 +68,12 @@
             "service_ids": "28144"
         },
         {
-            "col_name": "stb",
-            "nr_of_documents": 16423,
-            "nr_of_fields": 8,
-            "owners": "Peter Andorfer, Martin Anton Müller",
-            "description": "https://github.com/arthur-schnitzler/schnitzler-tagebuch-static",
-            "service_ids": "11833"
-        },
-        {
-            "col_name": "LOI",
-            "nr_of_documents": 293,
-            "nr_of_fields": 21,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the LOI project, indexing all passages",
-            "service_ids": "28231"
+            "col_name": "dieinsel_index_articles",
+            "nr_of_documents": 747,
+            "nr_of_fields": 40,
+            "owners": "Daniel Elsner, Christian Lendl",
+            "description": "Fulltext search index for Die Insel Register",
+            "service_ids": "24106"
         },
         {
             "col_name": "JAD-temp",
@@ -74,6 +82,14 @@
             "owners": "Ivana Dobcheva",
             "description": "index for the JAD project, indexing all passages",
             "service_ids": "23082"
+        },
+        {
+            "col_name": "dieinsel_index_uebersicht",
+            "nr_of_documents": 34,
+            "nr_of_fields": 15,
+            "owners": "Daniel Elsner, Christian Lendl",
+            "description": "Fulltext search index for Die Insel Übersicht",
+            "service_ids": "24106"
         },
         {
             "col_name": "mrp-static",
@@ -101,27 +117,19 @@
         },
         {
             "col_name": "emt",
-            "nr_of_documents": 1601,
+            "nr_of_documents": 1602,
             "nr_of_fields": 22,
             "owners": "Peter Andorfer, Kinga Sramó",
             "description": "https://github.com/emt-project/emt-static",
             "service_ids": "21311"
         },
         {
-            "col_name": "schnitzler-briefe",
-            "nr_of_documents": 4364,
-            "nr_of_fields": 29,
-            "owners": "Peter Andorfer, Martin Anton Müller",
-            "description": "https://github.com/arthur-schnitzler/schnitzler-briefe-static",
-            "service_ids": "21741"
-        },
-        {
-            "col_name": "pez-nachlass",
-            "nr_of_documents": 794,
-            "nr_of_fields": 14,
+            "col_name": "letters1916-static",
+            "nr_of_documents": 478,
+            "nr_of_fields": 21,
             "owners": "Peter Andorfer",
-            "description": "https://github.com/acdh-oeaw/pez-nachlass-static",
-            "service_ids": "28627"
+            "description": "https://github.com/letters1916static/letters1916-static",
+            "service_ids": "28621"
         },
         {
             "col_name": "schubert_dev",
@@ -148,6 +156,62 @@
             "service_ids": "22517"
         },
         {
+            "col_name": "bundes_verfassung_oesterreich",
+            "nr_of_documents": 5948,
+            "nr_of_fields": 16,
+            "owners": "Peter Andorfer, Carl Friedrich Haak",
+            "description": "Index of the Austrian Federal Constitution (Bundes-Verfassungsgesetz)documents and subsections of documents are both indexed as documents, to make the full text but also the different documents as such searchable.",
+            "service_ids": "21497"
+        },
+        {
+            "col_name": "dariah-campus",
+            "nr_of_documents": 293,
+            "nr_of_fields": 8,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "hbtv",
+            "nr_of_documents": 6780,
+            "nr_of_fields": 8,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "bahr-static",
+            "nr_of_documents": 1367,
+            "nr_of_fields": 8,
+            "owners": "Peter Andorfer, Martin Anton Müller",
+            "description": "https://schnitzler-bahr.acdh.oeaw.ac.at/",
+            "service_ids": "10694"
+        },
+        {
+            "col_name": "stb",
+            "nr_of_documents": 16423,
+            "nr_of_fields": 8,
+            "owners": "Peter Andorfer, Martin Anton Müller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-tagebuch-static",
+            "service_ids": "11833"
+        },
+        {
+            "col_name": "schnitzler-briefe",
+            "nr_of_documents": 4364,
+            "nr_of_fields": 29,
+            "owners": "Peter Andorfer, Martin Anton Müller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-briefe-static",
+            "service_ids": "21741"
+        },
+        {
+            "col_name": "pez-nachlass",
+            "nr_of_documents": 794,
+            "nr_of_fields": 14,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/acdh-oeaw/pez-nachlass-static",
+            "service_ids": "28627"
+        },
+        {
             "col_name": "dhd-abstracts",
             "nr_of_documents": 1180,
             "nr_of_fields": 9,
@@ -165,19 +229,11 @@
         },
         {
             "col_name": "cfts",
-            "nr_of_documents": 29437,
+            "nr_of_documents": 36217,
             "nr_of_fields": 12,
             "owners": "Peter Andorfer",
             "description": "Fulltext index over several projects, see https://github.com/acdh-oeaw/acdh-cfts-pyutils",
             "service_ids": "28216"
-        },
-        {
-            "col_name": "letters1916-static",
-            "nr_of_documents": 478,
-            "nr_of_fields": 21,
-            "owners": "Peter Andorfer",
-            "description": "https://github.com/letters1916static/letters1916-static",
-            "service_ids": "28621"
         },
         {
             "col_name": "nbr-pius-xi",
@@ -218,14 +274,6 @@
             "owners": "@peterpro",
             "description": "search data for oeml-static",
             "service_ids": "23145"
-        },
-        {
-            "col_name": "dariah-campus",
-            "nr_of_documents": 292,
-            "nr_of_fields": 8,
-            "owners": "stefan.probst@oeaw.ac.at",
-            "description": "DARIAH-Campus",
-            "service_ids": "16225"
         },
         {
             "col_name": "gtrans",
@@ -332,14 +380,6 @@
             "service_ids": "22730"
         },
         {
-            "col_name": "kb-static",
-            "nr_of_documents": 750,
-            "nr_of_fields": 11,
-            "owners": "Peter Andorfer, Bernhard Oberreither",
-            "description": "https://github.com/karl-kraus/kb-static",
-            "service_ids": "26461"
-        },
-        {
             "col_name": "ofm_graz",
             "nr_of_documents": 51647,
             "nr_of_fields": 14,
@@ -388,38 +428,6 @@
             "service_ids": "not set"
         },
         {
-            "col_name": "bundes_verfassung_oesterreich",
-            "nr_of_documents": 5947,
-            "nr_of_fields": 16,
-            "owners": "Peter Andorfer, Carl Friedrich Haak",
-            "description": "Index of the Austrian Federal Constitution (Bundes-Verfassungsgesetz)documents and subsections of documents are both indexed as documents, to make the full text but also the different documents as such searchable.",
-            "service_ids": "21497"
-        },
-        {
-            "col_name": "dieinsel_index_articles",
-            "nr_of_documents": 747,
-            "nr_of_fields": 34,
-            "owners": "Daniel Elsner",
-            "description": "Fulltext search index for dieinsel_index_articles",
-            "service_ids": "24106"
-        },
-        {
-            "col_name": "dieinsel_index_uebersicht",
-            "nr_of_documents": 34,
-            "nr_of_fields": 15,
-            "owners": "Daniel Elsner",
-            "description": "Fulltext search index for dieinsel_index_uebersicht",
-            "service_ids": "24106"
-        },
-        {
-            "col_name": "aad",
-            "nr_of_documents": 467,
-            "nr_of_fields": 19,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
             "col_name": "the-knowledge-base-website",
             "nr_of_documents": 0,
             "nr_of_fields": 8,
@@ -461,7 +469,7 @@
         },
         {
             "col_name": "dariah-website",
-            "nr_of_documents": 3014,
+            "nr_of_documents": 2958,
             "nr_of_fields": 8,
             "owners": "stefan.probst@oeaw.ac.at",
             "description": "DARIAH.eu website",
@@ -490,14 +498,6 @@
             "owners": "Daniel Elsner",
             "description": "Fulltext search index for walpurgisnacht",
             "service_ids": "26842"
-        },
-        {
-            "col_name": "hbtv",
-            "nr_of_documents": 6780,
-            "nr_of_fields": 8,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
         },
         {
             "col_name": "hsl",
@@ -717,7 +717,7 @@
         },
         {
             "col_name": "prosnet-geonames-place-index",
-            "nr_of_documents": 170352,
+            "nr_of_documents": 170847,
             "nr_of_fields": 5,
             "owners": "matthias.schloegl@oeaw.ac.at",
             "description": "Autocomplete sources shared by APIS instances",
@@ -725,7 +725,7 @@
         },
         {
             "col_name": "prosnet-wikidata-place-index",
-            "nr_of_documents": 83263,
+            "nr_of_documents": 83287,
             "nr_of_fields": 5,
             "owners": "matthias.schloegl@oeaw.ac.at",
             "description": "Autocomplete sources shared by APIS instances",
@@ -733,7 +733,7 @@
         },
         {
             "col_name": "prosnet-wikidata-person-index",
-            "nr_of_documents": 21299,
+            "nr_of_documents": 21306,
             "nr_of_fields": 7,
             "owners": "matthias.schloegl@oeaw.ac.at",
             "description": "Autocomplete sources shared by APIS instances",
