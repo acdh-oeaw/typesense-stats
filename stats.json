@@ -1,23 +1,39 @@
 {
-    "nr_of_collections": 97,
-    "with_metadata": 70,
-    "nr_of_documents": 778378,
+    "nr_of_collections": 101,
+    "with_metadata": 69,
+    "nr_of_documents": 793675,
     "collections": [
         {
-            "col_name": "kb-static",
-            "nr_of_documents": 750,
-            "nr_of_fields": 11,
-            "owners": "Peter Andorfer, Bernhard Oberreither",
-            "description": "https://github.com/karl-kraus/kb-static",
-            "service_ids": "26461"
+            "col_name": "ofm_graz",
+            "nr_of_documents": 0,
+            "nr_of_fields": 14,
+            "owners": "Fernando Sanz-Lázaro",
+            "description": "Used for Register of https://ofm-graz.acdh.oeaw.ac.at",
+            "service_ids": "22275"
         },
         {
-            "col_name": "aad",
-            "nr_of_documents": 467,
-            "nr_of_fields": 19,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
+            "col_name": "emt",
+            "nr_of_documents": 1602,
+            "nr_of_fields": 22,
+            "owners": "Peter Andorfer, Kinga Sramó",
+            "description": "https://github.com/emt-project/emt-static",
+            "service_ids": "21311"
+        },
+        {
+            "col_name": "hit__strata",
+            "nr_of_documents": 54,
+            "nr_of_fields": 54,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the HIT project, indexing all strata",
+            "service_ids": "23143"
+        },
+        {
+            "col_name": "hit__msitems",
+            "nr_of_documents": 235,
+            "nr_of_fields": 183,
+            "owners": "Ivana Dobcheva",
+            "description": "index for the HIT project, indexing all msitems",
+            "service_ids": "23143"
         },
         {
             "col_name": "LOI",
@@ -29,7 +45,7 @@
         },
         {
             "col_name": "tillich-briefe",
-            "nr_of_documents": 1327,
+            "nr_of_documents": 1326,
             "nr_of_fields": 20,
             "owners": "Peter Andorfer, Thomas Klampfl",
             "description": "https://github.com/TillichCorrespondence/tillich-briefe-static",
@@ -61,79 +77,63 @@
         },
         {
             "col_name": "leopold-briefe-static",
-            "nr_of_documents": 11,
+            "nr_of_documents": 33,
             "nr_of_fields": 10,
             "owners": "Peter Andorfer",
             "description": "https://github.com/leopold-briefe/leopold-briefe-static",
             "service_ids": "28144"
         },
         {
-            "col_name": "dieinsel_index_articles",
-            "nr_of_documents": 747,
-            "nr_of_fields": 40,
-            "owners": "Daniel Elsner, Christian Lendl",
-            "description": "Fulltext search index for Die Insel Register",
-            "service_ids": "24106"
-        },
-        {
             "col_name": "JAD-temp",
-            "nr_of_documents": 2319,
+            "nr_of_documents": 2329,
             "nr_of_fields": 60,
             "owners": "Ivana Dobcheva",
             "description": "index for the JAD project, indexing all passages",
             "service_ids": "23082"
         },
         {
-            "col_name": "dieinsel_index_uebersicht",
-            "nr_of_documents": 34,
-            "nr_of_fields": 15,
-            "owners": "Daniel Elsner, Christian Lendl",
-            "description": "Fulltext search index for Die Insel Übersicht",
-            "service_ids": "24106"
+            "col_name": "mahler-letters",
+            "nr_of_documents": 2636,
+            "nr_of_fields": 14,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "mahler-discography",
+            "nr_of_documents": 543,
+            "nr_of_fields": 16,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "mahler-performances",
+            "nr_of_documents": 955,
+            "nr_of_fields": 16,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "mahler-wv",
+            "nr_of_documents": 58,
+            "nr_of_fields": 10,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
         },
         {
             "col_name": "mrp-static",
-            "nr_of_documents": 4350,
-            "nr_of_fields": 13,
+            "nr_of_documents": 0,
+            "nr_of_fields": 4,
             "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
             "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
             "service_ids": "28624"
         },
         {
-            "col_name": "hit__strata",
-            "nr_of_documents": 54,
-            "nr_of_fields": 54,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the HIT project, indexing all strata",
-            "service_ids": "23143"
-        },
-        {
-            "col_name": "hit__msitems",
-            "nr_of_documents": 235,
-            "nr_of_fields": 183,
-            "owners": "Ivana Dobcheva",
-            "description": "index for the HIT project, indexing all msitems",
-            "service_ids": "23143"
-        },
-        {
-            "col_name": "emt",
-            "nr_of_documents": 1602,
-            "nr_of_fields": 22,
-            "owners": "Peter Andorfer, Kinga Sramó",
-            "description": "https://github.com/emt-project/emt-static",
-            "service_ids": "21311"
-        },
-        {
-            "col_name": "letters1916-static",
-            "nr_of_documents": 478,
-            "nr_of_fields": 21,
-            "owners": "Peter Andorfer",
-            "description": "https://github.com/letters1916static/letters1916-static",
-            "service_ids": "28621"
-        },
-        {
             "col_name": "schubert_dev",
-            "nr_of_documents": 228,
+            "nr_of_documents": 269,
             "nr_of_fields": 58,
             "owners": "@peterpro",
             "description": "sources data for schubert staging",
@@ -149,11 +149,59 @@
         },
         {
             "col_name": "schubert_dev_schnellsuche",
-            "nr_of_documents": 2961,
+            "nr_of_documents": 2978,
             "nr_of_fields": 9,
             "owners": "@peterpro",
             "description": "schnellsuche data for schubert staging",
             "service_ids": "22517"
+        },
+        {
+            "col_name": "schnitzler-briefe",
+            "nr_of_documents": 4420,
+            "nr_of_fields": 29,
+            "owners": "Peter Andorfer, Martin Anton Müller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-briefe-static",
+            "service_ids": "21741"
+        },
+        {
+            "col_name": "tbo_test_performances",
+            "nr_of_documents": 156,
+            "nr_of_fields": 3,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "tbo_test_expressions",
+            "nr_of_documents": 1258,
+            "nr_of_fields": 5,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "tbo_test_work",
+            "nr_of_documents": 187,
+            "nr_of_fields": 4,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "tbo_test_authors",
+            "nr_of_documents": 7,
+            "nr_of_fields": 1,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "aad",
+            "nr_of_documents": 496,
+            "nr_of_fields": 19,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
         },
         {
             "col_name": "bundes_verfassung_oesterreich",
@@ -164,8 +212,136 @@
             "service_ids": "21497"
         },
         {
+            "col_name": "armesuenderblaetter",
+            "nr_of_documents": 119,
+            "nr_of_fields": 22,
+            "owners": "Daniel Elsner, Fernando Sanz-Lazaro, LP",
+            "description": "Used for Übersicht of https://armesuenderblaetter.acdh-cluster-2.arz.oeaw.ac.at/",
+            "service_ids": "22954"
+        },
+        {
+            "col_name": "stb",
+            "nr_of_documents": 16423,
+            "nr_of_fields": 8,
+            "owners": "Peter Andorfer, Martin Anton Müller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-tagebuch-static",
+            "service_ids": "11833"
+        },
+        {
+            "col_name": "dieinsel_index_articles",
+            "nr_of_documents": 991,
+            "nr_of_fields": 42,
+            "owners": "Daniel Elsner, Christian Lendl",
+            "description": "Fulltext search index for Die Insel Register",
+            "service_ids": "24106"
+        },
+        {
+            "col_name": "oeml-search-local",
+            "nr_of_documents": 9780,
+            "nr_of_fields": 10,
+            "owners": "@peterpro",
+            "description": "search data for oeml-static",
+            "service_ids": "23145"
+        },
+        {
+            "col_name": "hiob",
+            "nr_of_documents": 593,
+            "nr_of_fields": 16,
+            "owners": "Peter Andorfer, Kinga Sramó",
+            "description": "https://github.com/hiob-project/hiob-app",
+            "service_ids": "28045"
+        },
+        {
+            "col_name": "nbr-pius-xi",
+            "nr_of_documents": 74,
+            "nr_of_fields": 6,
+            "owners": "Peter Andorfer, Martin Kroißenbrunner",
+            "description": "https://github.com/nuntiaturberichte/nbr-pius-xi-static",
+            "service_ids": "24835"
+        },
+        {
+            "col_name": "dariah-website",
+            "nr_of_documents": 2936,
+            "nr_of_fields": 9,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "dariah-resources",
+            "nr_of_documents": 1117,
+            "nr_of_fields": 18,
+            "owners": "not set",
+            "description": "not set",
+            "service_ids": "not set"
+        },
+        {
+            "col_name": "Schnitzler-Zeitungen",
+            "nr_of_documents": 22571,
+            "nr_of_fields": 4,
+            "owners": "Peter Andorfer, Martin Anton Müller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-zeitungen-static",
+            "service_ids": "15042"
+        },
+        {
+            "col_name": "Schnitzler-Mikrofilme",
+            "nr_of_documents": 44326,
+            "nr_of_fields": 5,
+            "owners": "Peter Andorfer, Martin Anton Müller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-mikrofilme-static",
+            "service_ids": "22703"
+        },
+        {
+            "col_name": "bahr-static",
+            "nr_of_documents": 1367,
+            "nr_of_fields": 8,
+            "owners": "Peter Andorfer, Martin Anton Müller",
+            "description": "https://schnitzler-bahr.acdh.oeaw.ac.at/",
+            "service_ids": "10694"
+        },
+        {
+            "col_name": "schnitzler-interviews",
+            "nr_of_documents": 182,
+            "nr_of_fields": 18,
+            "owners": "Peter Andorfer, Martin Anton Müller",
+            "description": "https://github.com/arthur-schnitzler/schnitzler-interviews-static",
+            "service_ids": "21741"
+        },
+        {
+            "col_name": "dieinsel_index_uebersicht",
+            "nr_of_documents": 34,
+            "nr_of_fields": 15,
+            "owners": "Daniel Elsner, Christian Lendl",
+            "description": "Fulltext search index for Die Insel Übersicht",
+            "service_ids": "24106"
+        },
+        {
+            "col_name": "tbo_work",
+            "nr_of_documents": 187,
+            "nr_of_fields": 13,
+            "owners": "matthias.schloegl@oeaw.ac.at, k.kollmann@oeaw.ac.at",
+            "description": "Testindex for Thomas Bernhard Online",
+            "service_ids": "23795"
+        },
+        {
+            "col_name": "letters1916-static",
+            "nr_of_documents": 478,
+            "nr_of_fields": 21,
+            "owners": "Peter Andorfer",
+            "description": "https://github.com/letters1916static/letters1916-static",
+            "service_ids": "28621"
+        },
+        {
+            "col_name": "kb-static",
+            "nr_of_documents": 750,
+            "nr_of_fields": 11,
+            "owners": "Peter Andorfer, Bernhard Oberreither",
+            "description": "https://github.com/karl-kraus/kb-static",
+            "service_ids": "26461"
+        },
+        {
             "col_name": "dariah-campus",
-            "nr_of_documents": 293,
+            "nr_of_documents": 297,
             "nr_of_fields": 8,
             "owners": "not set",
             "description": "not set",
@@ -178,30 +354,6 @@
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"
-        },
-        {
-            "col_name": "bahr-static",
-            "nr_of_documents": 1367,
-            "nr_of_fields": 8,
-            "owners": "Peter Andorfer, Martin Anton Müller",
-            "description": "https://schnitzler-bahr.acdh.oeaw.ac.at/",
-            "service_ids": "10694"
-        },
-        {
-            "col_name": "stb",
-            "nr_of_documents": 16423,
-            "nr_of_fields": 8,
-            "owners": "Peter Andorfer, Martin Anton Müller",
-            "description": "https://github.com/arthur-schnitzler/schnitzler-tagebuch-static",
-            "service_ids": "11833"
-        },
-        {
-            "col_name": "schnitzler-briefe",
-            "nr_of_documents": 4364,
-            "nr_of_fields": 29,
-            "owners": "Peter Andorfer, Martin Anton Müller",
-            "description": "https://github.com/arthur-schnitzler/schnitzler-briefe-static",
-            "service_ids": "21741"
         },
         {
             "col_name": "pez-nachlass",
@@ -229,19 +381,11 @@
         },
         {
             "col_name": "cfts",
-            "nr_of_documents": 36217,
+            "nr_of_documents": 103474,
             "nr_of_fields": 12,
             "owners": "Peter Andorfer",
             "description": "Fulltext index over several projects, see https://github.com/acdh-oeaw/acdh-cfts-pyutils",
             "service_ids": "28216"
-        },
-        {
-            "col_name": "nbr-pius-xi",
-            "nr_of_documents": 74,
-            "nr_of_fields": 6,
-            "owners": "Peter Andorfer, Martin Kroißenbrunner",
-            "description": "https://github.com/nuntiaturberichte/nbr-pius-xi-static",
-            "service_ids": "24835"
         },
         {
             "col_name": "nbr-graz",
@@ -268,14 +412,6 @@
             "service_ids": "18716"
         },
         {
-            "col_name": "oeml-search-local",
-            "nr_of_documents": 9774,
-            "nr_of_fields": 10,
-            "owners": "@peterpro",
-            "description": "search data for oeml-static",
-            "service_ids": "23145"
-        },
-        {
             "col_name": "gtrans",
             "nr_of_documents": 939,
             "nr_of_fields": 16,
@@ -300,14 +436,6 @@
             "service_ids": "21628"
         },
         {
-            "col_name": "Schnitzler-Zeitungen",
-            "nr_of_documents": 22571,
-            "nr_of_fields": 4,
-            "owners": "Peter Andorfer, Martin Anton Müller",
-            "description": "https://github.com/arthur-schnitzler/schnitzler-zeitungen-static",
-            "service_ids": "15042"
-        },
-        {
             "col_name": "wkfm",
             "nr_of_documents": 1945,
             "nr_of_fields": 4,
@@ -330,22 +458,6 @@
             "owners": "Peter Andorfer",
             "description": "https://github.com/acdh-oeaw/daacda-static",
             "service_ids": "25177"
-        },
-        {
-            "col_name": "Schnitzler-Mikrofilme",
-            "nr_of_documents": 44326,
-            "nr_of_fields": 5,
-            "owners": "Peter Andorfer, Martin Anton Müller",
-            "description": "https://github.com/arthur-schnitzler/schnitzler-mikrofilme-static",
-            "service_ids": "22703"
-        },
-        {
-            "col_name": "schnitzler-interviews",
-            "nr_of_documents": 182,
-            "nr_of_fields": 18,
-            "owners": "Peter Andorfer, Martin Anton Müller",
-            "description": "https://github.com/arthur-schnitzler/schnitzler-interviews-static",
-            "service_ids": "21741"
         },
         {
             "col_name": "baedeker",
@@ -380,30 +492,6 @@
             "service_ids": "22730"
         },
         {
-            "col_name": "ofm_graz",
-            "nr_of_documents": 51647,
-            "nr_of_fields": 14,
-            "owners": "Fernando Sanz-Lázaro",
-            "description": "Used for Register of https://ofm-graz.acdh.oeaw.ac.at",
-            "service_ids": "22275"
-        },
-        {
-            "col_name": "tbo_work",
-            "nr_of_documents": 187,
-            "nr_of_fields": 13,
-            "owners": "matthias.schloegl@oeaw.ac.at",
-            "description": "Testindex for Thomas Bernhard Online",
-            "service_ids": "23795"
-        },
-        {
-            "col_name": "armesuenderblaetter",
-            "nr_of_documents": 120,
-            "nr_of_fields": 22,
-            "owners": "Daniel Elsner",
-            "description": "Fulltext search index for armesuenderblaetter",
-            "service_ids": "22954"
-        },
-        {
             "col_name": "dse-static",
             "nr_of_documents": 3,
             "nr_of_fields": 16,
@@ -418,14 +506,6 @@
             "owners": "Daniel Elsner",
             "description": "Fulltext search index for walpurgisnacht_umschrift",
             "service_ids": "26842"
-        },
-        {
-            "col_name": "hiob",
-            "nr_of_documents": 620,
-            "nr_of_fields": 16,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
         },
         {
             "col_name": "the-knowledge-base-website",
@@ -468,22 +548,6 @@
             "service_ids": "not set"
         },
         {
-            "col_name": "dariah-website",
-            "nr_of_documents": 2958,
-            "nr_of_fields": 8,
-            "owners": "stefan.probst@oeaw.ac.at",
-            "description": "DARIAH.eu website",
-            "service_ids": "22513, 25534"
-        },
-        {
-            "col_name": "dariah-resources",
-            "nr_of_documents": 1114,
-            "nr_of_fields": 17,
-            "owners": "stefan.probst@oeaw.ac.at",
-            "description": "DARIAH Resource Catalogue",
-            "service_ids": "22513, 25534"
-        },
-        {
             "col_name": "oeml-search",
             "nr_of_documents": 9788,
             "nr_of_fields": 22,
@@ -519,38 +583,6 @@
             "col_name": "OKAR",
             "nr_of_documents": 61110,
             "nr_of_fields": 15,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "mahler-letters",
-            "nr_of_documents": 2636,
-            "nr_of_fields": 14,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "mahler-discography",
-            "nr_of_documents": 543,
-            "nr_of_fields": 16,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "mahler-performances",
-            "nr_of_documents": 938,
-            "nr_of_fields": 16,
-            "owners": "not set",
-            "description": "not set",
-            "service_ids": "not set"
-        },
-        {
-            "col_name": "mahler-wv",
-            "nr_of_documents": 58,
-            "nr_of_fields": 10,
             "owners": "not set",
             "description": "not set",
             "service_ids": "not set"
@@ -717,7 +749,7 @@
         },
         {
             "col_name": "prosnet-geonames-place-index",
-            "nr_of_documents": 170847,
+            "nr_of_documents": 171210,
             "nr_of_fields": 5,
             "owners": "matthias.schloegl@oeaw.ac.at",
             "description": "Autocomplete sources shared by APIS instances",
@@ -725,7 +757,7 @@
         },
         {
             "col_name": "prosnet-wikidata-place-index",
-            "nr_of_documents": 83287,
+            "nr_of_documents": 84916,
             "nr_of_fields": 5,
             "owners": "matthias.schloegl@oeaw.ac.at",
             "description": "Autocomplete sources shared by APIS instances",
@@ -733,7 +765,7 @@
         },
         {
             "col_name": "prosnet-wikidata-person-index",
-            "nr_of_documents": 21306,
+            "nr_of_documents": 21345,
             "nr_of_fields": 7,
             "owners": "matthias.schloegl@oeaw.ac.at",
             "description": "Autocomplete sources shared by APIS instances",

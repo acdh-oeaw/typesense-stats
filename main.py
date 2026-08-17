@@ -5,8 +5,7 @@ from typing import Any
 
 import requests
 
-COLS_TO_DELETE = [
-]
+COLS_TO_DELETE = []
 
 TYPESENSE_API_KEY = os.environ.get("TYPESENSE_API_KEY", "xyz")
 TYPESENSE_TIMEOUT = os.environ.get("TYPESENSE_TIMEOUT", "120")
