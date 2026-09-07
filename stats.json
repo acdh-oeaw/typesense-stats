@@ -4,6 +4,14 @@
     "nr_of_documents": 857252,
     "collections": [
         {
+            "col_name": "mrp-static",
+            "nr_of_documents": 4350,
+            "nr_of_fields": 13,
+            "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
+            "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
+            "service_ids": "28624"
+        },
+        {
             "col_name": "kalbeck-tagebuch-static",
             "nr_of_documents": 341,
             "nr_of_fields": 16,
@@ -74,14 +82,6 @@
             "owners": "Peter Andorfer, Thomas Klampfl",
             "description": "https://github.com/TillichCorrespondence/tillich-lectures-static",
             "service_ids": "23501"
-        },
-        {
-            "col_name": "mrp-static",
-            "nr_of_documents": 4350,
-            "nr_of_fields": 13,
-            "owners": "Peter Andorfer, Dimitra Grigoriou, Stephan Kurz",
-            "description": "https://gitlab.oeaw.ac.at/acdh-ch/ihb/ministerratsprotokolle/mrp-static",
-            "service_ids": "28624"
         },
         {
             "col_name": "schubert_dev",
